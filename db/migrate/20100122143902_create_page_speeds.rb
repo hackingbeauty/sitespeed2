@@ -32,7 +32,8 @@ class CreatePageSpeeds < ActiveRecord::Migration
       t.float :pUnusedCSS
       t.float :pMinDNS
       t.float :pDudeRsrc
-
+      t.float :pScaleImgs
+      
       t.timestamps
     end
     add_index :page_speeds, :url_id, :unique => true
