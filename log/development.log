@@ -1,0 +1,733 @@
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 11:20:01) [POST]
+  Parameters: {"w"=>229826, "o"=>72, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>82, "components"=>["http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_css&t=text/css&v=14655"]}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 1 inline css", "There are a total of 14 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>70, "components"=>["www.qa2.rentals.com", "www.qa.rentals.com", "www.google-analytics.com", "view.atdmt.com", "statse.webtrendslive.com", "an.tacoda.net", "www.rentals.com", "ad.doubleclick.net", "s0.2mdn.net", "wh.consumersource.com"]}, "yjsbottom"=>{"score"=>95, "components"=>["http://www.google-analytics.com/urchin.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>90, "components"=>["Inline script tag #4"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>45, "components"=>["http://view.atdmt.com/jaction/bvkrtl_RNHomePage_1", "http://www.qa2.rentals.com/JavaScript/webtrends.js", "http://statse.webtrendslive.com/dcse9jgu710000gcwxahzyb97_4l7l/wtid.js", "http://www.qa2.rentals.com/images/logo_rentals.gif", "http://www.qa2.rentals.com/Images/x.gif", "http://www.qa2.rentals.com/images/icon_credit.gif", "http://www.qa2.rentals.com/images/icon_movers.gif", "http://www.qa2.rentals.com/images/icon_roommates.gif", "http://www.qa2.rentals.com/images/icon_utilities.gif", "http://www.qa2.rentals.com/images/primedia.gif", "http://www.qa2.rentals.com/images/loadingAnimation.gif"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/JavaScript/webtrends.js", "http://www.qa.rentals.com/images/bg_header.gif", "http://www.qa.rentals.com/images/bg_listyourprop.gif", "http://www.qa.rentals.com/images/bg_tab_selected.gif", "http://www.qa.rentals.com/images/bg_tab.gif", "http://www.qa.rentals.com/images/bg_breadcrumb.gif", "http://www.qa.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa.rentals.com/images/btn_largeGreen_right.gif", "http://www.qa.rentals.com/images/btn_largeGreen_left.gif", "http://www.qa.rentals.com/images/bg_bluebarheading.gif", "http://www.rentals.com/Images/btn_blue_right.gif", "http://www.rentals.com/Images/btn_blue_left.gif", "http://www.qa2.rentals.com/Images/x.gif", "http://www.qa2.rentals.com/images/icon_credit.gif", "http://www.qa.rentals.com/Favicon.ico", "http://www.qa2.rentals.com/images/loadingAnimation.gif"]}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>100}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_css&t=text/css&v=14655", "http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_js&t=text/javascript&v=14655", "http://view.atdmt.com/jaction/bvkrtl_RNHomePage_1", "http://www.qa2.rentals.com/JavaScript/webtrends.js", "http://statse.webtrendslive.com/dcse9jgu710000gcwxahzyb97_4l7l/wtid.js", "http://an.tacoda.net/an/16157/slf.js", "http://an.tacoda.net/an/cda1.js", "http://www.qa.rentals.com/images/bg_header.gif", "http://www.qa.rentals.com/images/bg_listyourprop.gif", "http://www.qa.rentals.com/images/bg_tab_selected.gif", "http://www.qa.rentals.com/images/bg_tab.gif", "http://www.qa.rentals.com/images/bg_breadcrumb.gif", "http://www.qa.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa.rentals.com/images/btn_largeGreen_right.gif", "http://www.qa.rentals.com/images/btn_largeGreen_left.gif", "http://www.qa.rentals.com/images/bg_bluebarheading.gif", "http://www.rentals.com/Images/btn_blue_right.gif", "http://www.rentals.com/Images/btn_blue_left.gif", "http://www.qa2.rentals.com/images/logo_rentals.gif", "http://www.qa2.rentals.com/Images/x.gif", "http://www.qa2.rentals.com/images/icon_credit.gif", "http://www.qa2.rentals.com/images/icon_movers.gif", "http://www.qa2.rentals.com/images/icon_roommates.gif", "http://www.qa2.rentals.com/images/icon_utilities.gif", "http://www.qa2.rentals.com/images/primedia.gif", "http://www.qa.rentals.com/Favicon.ico", "http://s0.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://s0.2mdn.net/568459/3-BT_CoffeeLaptop_300x250.swf", "http://www.qa2.rentals.com/images/loadingAnimation.gif"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>61}}, "r"=>38, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+Rendering beacon/yslow
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-22 11:51:44) [GET]
+
+ActionController::RoutingError (No route matches "/bfast" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-22 11:53:52) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-22 11:53:58) [GET]
+
+ActionController::RoutingError (No route matches "/bfast" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 11:54:03) [GET]
+Rendering beacon/yslow
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/yslow]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 13:15:18) [POST]
+  Parameters: {"w"=>110760, "o"=>77, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>79}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 1 inline css", "There are a total of 8 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>95, "components"=>["www.reddit.com", "static.reddit.com", "pixel.reddit.com", "ad.doubleclick.net", "static.2mdn.net"]}, "yjsbottom"=>{"score"=>80, "components"=>["http://www.reddit.com/static/jquery.js?v=c0c532defed6aa4be13f0496ae13f097", "http://www.reddit.com/static/jquery.json.js?v=35aafdb04f488d01d5918d2e6f04204a", "http://www.reddit.com/static/jquery.reddit.js?v=d42ec4d96dcf244283b2be9843cef5d9", "http://www.reddit.com/static/reddit.js?v=8d292e86165f5bcb2a621f4408e903d6"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>100}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>45, "components"=>["http://www.reddit.com/static/reddit.css?v=6ab7fc46eb80c8f50c78e47db31d43ab", "http://www.reddit.com/static/jquery.js?v=c0c532defed6aa4be13f0496ae13f097", "http://www.reddit.com/static/jquery.json.js?v=35aafdb04f488d01d5918d2e6f04204a", "http://www.reddit.com/static/jquery.reddit.js?v=d42ec4d96dcf244283b2be9843cef5d9", "http://www.reddit.com/static/reddit.js?v=8d292e86165f5bcb2a621f4408e903d6", "http://www.reddit.com/static/sprite.png?v=30e3875d624ba0d9f5811bd4e6068f68", "http://www.reddit.com/static/gradient-button.png", "http://www.reddit.com/static/gradient-button-hover.png", "http://www.reddit.com/static/bg-button-add.png", "http://static.reddit.com/reddit.com.header.png", "http://www.reddit.com/static/kill.png"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>100}, "yexpires"=>{"score"=>0, "components"=>["http://www.reddit.com/static/reddit.css?v=6ab7fc46eb80c8f50c78e47db31d43ab", "http://www.reddit.com/static/jquery.js?v=c0c532defed6aa4be13f0496ae13f097", "http://www.reddit.com/static/jquery.json.js?v=35aafdb04f488d01d5918d2e6f04204a", "http://www.reddit.com/static/jquery.reddit.js?v=d42ec4d96dcf244283b2be9843cef5d9", "http://www.reddit.com/static/reddit.js?v=8d292e86165f5bcb2a621f4408e903d6", "http://www.reddit.com/static/sprite.png?v=30e3875d624ba0d9f5811bd4e6068f68", "http://www.reddit.com/static/gradient-button.png", "http://www.reddit.com/static/gradient-button-hover.png", "http://www.reddit.com/static/bg-button-add.png", "http://www.reddit.com/static/bg-button-remove.png", "http://static.reddit.com/reddit.com.header.png", "http://www.reddit.com/static/kill.png", "http://www.reddit.com/static/favicon.ico", "http://ad.doubleclick.net/adj/reddit.dart/homepage;kw=homepage;tile=1;dcopt=ist;sz=300x250;ord=4833319599290187?", "http://static.2mdn.net/2233165/haiti-help8.jpg"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>92}}, "r"=>19, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.reddit.com/r/javascript"}
+Rendering beacon/yslow
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 13:15:50) [POST]
+  Parameters: {"w"=>241865, "o"=>70, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>82, "components"=>["http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_css&t=text/css&v=14655"]}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 1 inline css", "There are a total of 14 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>70, "components"=>["www.qa2.rentals.com", "www.qa.rentals.com", "www.google-analytics.com", "view.atdmt.com", "statse.webtrendslive.com", "an.tacoda.net", "www.rentals.com", "ad.doubleclick.net", "static.2mdn.net", "wh.consumersource.com"]}, "yjsbottom"=>{"score"=>95, "components"=>["http://www.google-analytics.com/urchin.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>90, "components"=>["Inline script tag #4"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>0, "components"=>["http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_css&t=text/css&v=14655", "http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_js&t=text/javascript&v=14655", "http://www.qa2.rentals.com/JavaScript/webtrends.js", "http://statse.webtrendslive.com/dcse9jgu710000gcwxahzyb97_4l7l/wtid.js", "http://www.qa.rentals.com/images/bg_header.gif", "http://www.qa.rentals.com/images/bg_listyourprop.gif", "http://www.qa.rentals.com/images/bg_tab_selected.gif", "http://www.qa.rentals.com/images/bg_tab.gif", "http://www.qa.rentals.com/images/bg_breadcrumb.gif", "http://www.qa.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa.rentals.com/images/btn_largeGreen_right.gif", "http://www.qa.rentals.com/images/btn_largeGreen_left.gif", "http://www.qa.rentals.com/images/bg_bluebarheading.gif", "http://www.rentals.com/Images/btn_blue_right.gif", "http://www.rentals.com/Images/btn_blue_left.gif", "http://www.qa2.rentals.com/images/logo_rentals.gif", "http://www.qa2.rentals.com/Images/x.gif", "http://www.qa2.rentals.com/images/icon_credit.gif", "http://www.qa2.rentals.com/images/icon_movers.gif", "http://www.qa2.rentals.com/images/icon_roommates.gif", "http://www.qa2.rentals.com/images/icon_utilities.gif", "http://www.qa2.rentals.com/images/primedia.gif", "http://www.qa2.rentals.com/images/loadingAnimation.gif"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/JavaScript/webtrends.js", "http://www.qa.rentals.com/images/bg_header.gif", "http://www.qa.rentals.com/images/bg_listyourprop.gif", "http://www.qa.rentals.com/images/bg_tab_selected.gif", "http://www.qa.rentals.com/images/bg_tab.gif", "http://www.qa.rentals.com/images/bg_breadcrumb.gif", "http://www.qa.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa.rentals.com/images/btn_largeGreen_right.gif", "http://www.qa.rentals.com/images/btn_largeGreen_left.gif", "http://www.qa.rentals.com/images/bg_bluebarheading.gif", "http://www.rentals.com/Images/btn_blue_right.gif", "http://www.rentals.com/Images/btn_blue_left.gif", "http://www.qa2.rentals.com/Images/x.gif", "http://www.qa.rentals.com/Favicon.ico", "http://www.qa2.rentals.com/images/loadingAnimation.gif"]}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>100}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_css&t=text/css&v=14655", "http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_js&t=text/javascript&v=14655", "http://view.atdmt.com/jaction/bvkrtl_RNHomePage_1", "http://www.qa2.rentals.com/JavaScript/webtrends.js", "http://statse.webtrendslive.com/dcse9jgu710000gcwxahzyb97_4l7l/wtid.js", "http://an.tacoda.net/an/16157/slf.js", "http://an.tacoda.net/an/cda1.js", "http://www.qa.rentals.com/images/bg_header.gif", "http://www.qa.rentals.com/images/bg_listyourprop.gif", "http://www.qa.rentals.com/images/bg_tab_selected.gif", "http://www.qa.rentals.com/images/bg_tab.gif", "http://www.qa.rentals.com/images/bg_breadcrumb.gif", "http://www.qa.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa.rentals.com/images/btn_largeGreen_right.gif", "http://www.qa.rentals.com/images/btn_largeGreen_left.gif", "http://www.qa.rentals.com/images/bg_bluebarheading.gif", "http://www.rentals.com/Images/btn_blue_right.gif", "http://www.rentals.com/Images/btn_blue_left.gif", "http://www.qa2.rentals.com/images/logo_rentals.gif", "http://www.qa2.rentals.com/Images/x.gif", "http://www.qa2.rentals.com/images/icon_credit.gif", "http://www.qa2.rentals.com/images/icon_movers.gif", "http://www.qa2.rentals.com/images/icon_roommates.gif", "http://www.qa2.rentals.com/images/icon_utilities.gif", "http://www.qa2.rentals.com/images/primedia.gif", "http://www.qa.rentals.com/Favicon.ico", "http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://static.2mdn.net/568459/BT_Locks_300x250.swf", "http://www.qa2.rentals.com/images/loadingAnimation.gif"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>61}}, "r"=>40, "lt"=>2074, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+Rendering beacon/yslow
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-22 15:22:01) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-22 15:22:22) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-22 15:22:39) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:22:39) [POST]
+  Parameters: {"w"=>644, "o"=>98, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 1 inline css"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>100}, "yjsbottom"=>{"score"=>100}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>90, "components"=>["Inline style tag #1"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>100}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>89, "components"=>["http://localhost:3000/"]}, "yexpires"=>{"score"=>100}, "ycdn"=>{"score"=>100}, "ynumreq"=>{"score"=>100}}, "r"=>1, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//localhost%3A3000/"}
+Rendering beacon/yslow
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:23:12) [GET]
+Rendering beacon/yslow
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:23:13) [POST]
+  Parameters: {"w"=>72, "o"=>100, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a"}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>100}, "yjsbottom"=>{"score"=>100}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>100}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>100}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>100}, "yexpires"=>{"score"=>100}, "ycdn"=>{"score"=>100}, "ynumreq"=>{"score"=>100}}, "r"=>1, "lt"=>148, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//localhost%3A3000/yslow"}
+Rendering beacon/yslow
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:23:16) [GET]
+Rendering beacon/yslow
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:23:17) [POST]
+  Parameters: {"w"=>72, "o"=>100, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a"}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>100}, "yjsbottom"=>{"score"=>100}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>100}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>100}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>100}, "yexpires"=>{"score"=>100}, "ycdn"=>{"score"=>100}, "ynumreq"=>{"score"=>100}}, "r"=>1, "lt"=>142, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//localhost%3A3000/yslow"}
+Rendering beacon/yslow
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:23:51) [GET]
+Rendering beacon/yslow
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:23:51) [POST]
+  Parameters: {"w"=>72, "o"=>100, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a"}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>100}, "yjsbottom"=>{"score"=>100}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>100}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>100}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>100}, "yexpires"=>{"score"=>100}, "ycdn"=>{"score"=>100}, "ynumreq"=>{"score"=>100}}, "r"=>1, "lt"=>147, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//localhost%3A3000/yslow"}
+Rendering beacon/yslow
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:23:57) [GET]
+Rendering beacon/yslow
+Completed in 22ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:23:58) [POST]
+  Parameters: {"w"=>72, "o"=>100, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a"}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>100}, "yjsbottom"=>{"score"=>100}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>100}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>100}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>100}, "yexpires"=>{"score"=>100}, "ycdn"=>{"score"=>100}, "ynumreq"=>{"score"=>100}}, "r"=>1, "lt"=>185, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//localhost%3A3000/yslow"}
+Rendering beacon/yslow
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:24:58) [GET]
+Rendering beacon/yslow
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:24:58) [POST]
+  Parameters: {"w"=>72, "o"=>100, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a"}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>100}, "yjsbottom"=>{"score"=>100}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>100}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>100}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>100}, "yexpires"=>{"score"=>100}, "ycdn"=>{"score"=>100}, "ynumreq"=>{"score"=>100}}, "r"=>1, "lt"=>185, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//localhost%3A3000/yslow"}
+Rendering beacon/yslow
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:26:23) [GET]
+Rendering beacon/yslow
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:26:41) [GET]
+Rendering beacon/yslow
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:26:41) [POST]
+  Parameters: {"w"=>72, "o"=>100, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a"}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>100}, "yjsbottom"=>{"score"=>100}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>100}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>100}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>100}, "yexpires"=>{"score"=>100}, "ycdn"=>{"score"=>100}, "ynumreq"=>{"score"=>100}}, "r"=>1, "lt"=>202, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//localhost%3A3000/yslow"}
+Rendering beacon/yslow
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:28:37) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/beacon_controller.rb:4:in `yslow'
+  haml (2.2.8) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (46.8ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:28:37) [POST]
+  Parameters: {"w"=>12285, "o"=>98, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 1 inline css"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>100}, "yjsbottom"=>{"score"=>100}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>90, "components"=>["Inline style tag #1"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>100}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>89, "components"=>["http://localhost:3000/yslow"]}, "yexpires"=>{"score"=>100}, "ycdn"=>{"score"=>100}, "ynumreq"=>{"score"=>100}}, "r"=>1, "lt"=>256, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//localhost%3A3000/yslow"}
+Rendering beacon/yslow
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:29:28) [POST]
+  Parameters: {"w"=>387690, "o"=>64, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 20 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>95, "components"=>["www.qa2.rentals.com", "onesearch.qa.primedia.com", "www.google-analytics.com", "ad.doubleclick.net", "static.2mdn.net"]}, "yjsbottom"=>{"score"=>55, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "Inline script tag #7", "Inline script tag #9"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>1, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/stylesheets/global.css", "http://www.qa2.rentals.com/stylesheets/homepage.css", "http://www.qa2.rentals.com/stylesheets/header.css", "http://www.qa2.rentals.com/stylesheets/footer.css", "http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "http://www.qa2.rentals.com/images/bg_header.png", "http://www.qa2.rentals.com/images/rentals_sprite.png", "http://www.qa2.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa2.rentals.com/images/bg_tab.gif", "http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://static.2mdn.net/568459/3-BT_CoffeeLaptop_300x250.swf", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_credit.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_movers.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_roommates.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_utilities.jpg"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>60}}, "r"=>32, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+
+SystemExit (exit):
+  app/controllers/beacon_controller.rb:5:in `exit'
+  app/controllers/beacon_controller.rb:5:in `yslow'
+  haml (2.2.8) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (37.3ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:30:10) [POST]
+  Parameters: {"w"=>369792, "o"=>64, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 20 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>95, "components"=>["www.qa2.rentals.com", "onesearch.qa.primedia.com", "www.google-analytics.com", "ad.doubleclick.net", "static.2mdn.net"]}, "yjsbottom"=>{"score"=>55, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "Inline script tag #7", "Inline script tag #9"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>1, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/stylesheets/global.css", "http://www.qa2.rentals.com/stylesheets/homepage.css", "http://www.qa2.rentals.com/stylesheets/header.css", "http://www.qa2.rentals.com/stylesheets/footer.css", "http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "http://www.qa2.rentals.com/images/bg_header.png", "http://www.qa2.rentals.com/images/rentals_sprite.png", "http://www.qa2.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa2.rentals.com/images/bg_tab.gif", "http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://static.2mdn.net/568459/BT_RoboDob_300x250.swf", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_credit.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_movers.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_roommates.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_utilities.jpg"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>60}}, "r"=>32, "lt"=>3635, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+
+SystemExit (exit):
+  app/controllers/beacon_controller.rb:5:in `exit'
+  app/controllers/beacon_controller.rb:5:in `yslow'
+  haml (2.2.8) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (104.4ms)
+Rendered rescues/_request_and_response (2.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:31:25) [POST]
+  Parameters: {"w"=>400748, "o"=>64, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 20 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>95, "components"=>["www.qa2.rentals.com", "onesearch.qa.primedia.com", "www.google-analytics.com", "ad.doubleclick.net", "static.2mdn.net"]}, "yjsbottom"=>{"score"=>55, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "Inline script tag #7", "Inline script tag #9"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>1, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/stylesheets/global.css", "http://www.qa2.rentals.com/stylesheets/homepage.css", "http://www.qa2.rentals.com/stylesheets/header.css", "http://www.qa2.rentals.com/stylesheets/footer.css", "http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "http://www.qa2.rentals.com/images/bg_header.png", "http://www.qa2.rentals.com/images/rentals_sprite.png", "http://www.qa2.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa2.rentals.com/images/bg_tab.gif", "http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://static.2mdn.net/568459/BT_Locks_300x250.swf", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_credit.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_movers.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_roommates.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_utilities.jpg"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>60}}, "r"=>38, "lt"=>3585, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+
+SystemExit (exit):
+  app/controllers/beacon_controller.rb:6:in `exit'
+  app/controllers/beacon_controller.rb:6:in `yslow'
+  haml (2.2.8) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (42.0ms)
+Rendered rescues/_request_and_response (2.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:31:47) [POST]
+  Parameters: {"w"=>374628, "o"=>64, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 20 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>95, "components"=>["www.qa2.rentals.com", "onesearch.qa.primedia.com", "www.google-analytics.com", "ad.doubleclick.net", "static.2mdn.net"]}, "yjsbottom"=>{"score"=>55, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "Inline script tag #7", "Inline script tag #9"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>1, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/stylesheets/global.css", "http://www.qa2.rentals.com/stylesheets/homepage.css", "http://www.qa2.rentals.com/stylesheets/header.css", "http://www.qa2.rentals.com/stylesheets/footer.css", "http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "http://www.qa2.rentals.com/images/bg_header.png", "http://www.qa2.rentals.com/images/rentals_sprite.png", "http://www.qa2.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa2.rentals.com/images/bg_tab.gif", "http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://static.2mdn.net/568459/BT_RoboDob_300x250.swf", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_credit.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_movers.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_roommates.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_utilities.jpg"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>60}}, "r"=>38, "lt"=>3768, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+
+SystemExit (exit):
+  app/controllers/beacon_controller.rb:6:in `exit'
+  app/controllers/beacon_controller.rb:6:in `yslow'
+  haml (2.2.8) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (50.2ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:39:29) [GET]
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/yslow]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:39:29) [POST]
+  Parameters: {"w"=>1, "o"=>100, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a"}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>100}, "yjsbottom"=>{"score"=>100}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>100}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>100}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>100}, "yexpires"=>{"score"=>100}, "ycdn"=>{"score"=>100}, "ynumreq"=>{"score"=>100}}, "r"=>1, "lt"=>153, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//localhost%3A3000/yslow"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:39:44) [GET]
+Rendering beacon/yslow
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/yslow]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:39:44) [POST]
+  Parameters: {"w"=>72, "o"=>100, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a"}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>100}, "yjsbottom"=>{"score"=>100}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>100}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>100}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>100}, "yexpires"=>{"score"=>100}, "ycdn"=>{"score"=>100}, "ynumreq"=>{"score"=>100}}, "r"=>1, "lt"=>161, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//localhost%3A3000/yslow"}
+Rendering beacon/yslow
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:40:14) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:40:14) [POST]
+  Parameters: {"w"=>1, "o"=>100, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a"}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>100}, "yjsbottom"=>{"score"=>100}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>100}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>100}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>100}, "yexpires"=>{"score"=>100}, "ycdn"=>{"score"=>100}, "ynumreq"=>{"score"=>100}}, "r"=>1, "lt"=>206, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//localhost%3A3000/yslow"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:40:30) [GET]
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:40:30) [POST]
+  Parameters: {"w"=>1, "o"=>100, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a"}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>100}, "yjsbottom"=>{"score"=>100}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>100}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>100}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>100}, "yexpires"=>{"score"=>100}, "ycdn"=>{"score"=>100}, "ynumreq"=>{"score"=>100}}, "r"=>1, "lt"=>164, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//localhost%3A3000/yslow"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:41:25) [POST]
+  Parameters: {"w"=>235833, "o"=>73, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>82, "components"=>["http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_css&t=text/css&v=14655"]}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 1 inline css", "There are a total of 14 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>75, "components"=>["www.qa2.rentals.com", "www.qa.rentals.com", "www.google-analytics.com", "view.atdmt.com", "statse.webtrendslive.com", "an.tacoda.net", "www.rentals.com", "ad.doubleclick.net", "static.2mdn.net"]}, "yjsbottom"=>{"score"=>95, "components"=>["http://www.google-analytics.com/urchin.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>90, "components"=>["Inline script tag #4"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>80, "components"=>["http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_js&t=text/javascript&v=14655", "http://view.atdmt.com/jaction/bvkrtl_RNHomePage_1", "http://www.qa2.rentals.com/JavaScript/webtrends.js", "http://statse.webtrendslive.com/dcse9jgu710000gcwxahzyb97_4l7l/wtid.js"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/JavaScript/webtrends.js", "http://www.qa.rentals.com/images/bg_header.gif", "http://www.qa.rentals.com/images/bg_listyourprop.gif", "http://www.qa.rentals.com/images/bg_tab_selected.gif", "http://www.qa.rentals.com/images/bg_tab.gif", "http://www.qa.rentals.com/images/bg_breadcrumb.gif", "http://www.qa.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa.rentals.com/images/btn_largeGreen_right.gif", "http://www.qa.rentals.com/images/btn_largeGreen_left.gif", "http://www.qa.rentals.com/images/bg_bluebarheading.gif", "http://www.rentals.com/Images/btn_blue_right.gif", "http://www.rentals.com/Images/btn_blue_left.gif", "http://www.qa.rentals.com/Favicon.ico"]}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>100}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_css&t=text/css&v=14655", "http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_js&t=text/javascript&v=14655", "http://view.atdmt.com/jaction/bvkrtl_RNHomePage_1", "http://www.qa2.rentals.com/JavaScript/webtrends.js", "http://statse.webtrendslive.com/dcse9jgu710000gcwxahzyb97_4l7l/wtid.js", "http://an.tacoda.net/an/16157/slf.js", "http://an.tacoda.net/an/cda1.js", "http://www.qa.rentals.com/images/bg_header.gif", "http://www.qa.rentals.com/images/bg_listyourprop.gif", "http://www.qa.rentals.com/images/bg_tab_selected.gif", "http://www.qa.rentals.com/images/bg_tab.gif", "http://www.qa.rentals.com/images/bg_breadcrumb.gif", "http://www.qa.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa.rentals.com/images/btn_largeGreen_right.gif", "http://www.qa.rentals.com/images/btn_largeGreen_left.gif", "http://www.qa.rentals.com/images/bg_bluebarheading.gif", "http://www.rentals.com/Images/btn_blue_right.gif", "http://www.rentals.com/Images/btn_blue_left.gif", "http://www.qa2.rentals.com/images/logo_rentals.gif", "http://www.qa2.rentals.com/Images/x.gif", "http://www.qa2.rentals.com/images/icon_credit.gif", "http://www.qa2.rentals.com/images/icon_movers.gif", "http://www.qa2.rentals.com/images/icon_roommates.gif", "http://www.qa2.rentals.com/images/icon_utilities.gif", "http://www.qa2.rentals.com/images/primedia.gif", "http://www.qa.rentals.com/Favicon.ico", "http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://static.2mdn.net/568459/BT_Locks_300x250.swf"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>61}}, "r"=>36, "lt"=>3377, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:42:08) [POST]
+  Parameters: {"w"=>209709, "o"=>73, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>82, "components"=>["http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_css&t=text/css&v=14655"]}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 1 inline css", "There are a total of 14 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>75, "components"=>["www.qa2.rentals.com", "www.qa.rentals.com", "www.google-analytics.com", "view.atdmt.com", "statse.webtrendslive.com", "an.tacoda.net", "www.rentals.com", "ad.doubleclick.net", "static.2mdn.net"]}, "yjsbottom"=>{"score"=>95, "components"=>["http://www.google-analytics.com/urchin.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>90, "components"=>["Inline script tag #4"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>80, "components"=>["http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_js&t=text/javascript&v=14655", "http://view.atdmt.com/jaction/bvkrtl_RNHomePage_1", "http://www.qa2.rentals.com/JavaScript/webtrends.js", "http://statse.webtrendslive.com/dcse9jgu710000gcwxahzyb97_4l7l/wtid.js"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/JavaScript/webtrends.js", "http://www.qa.rentals.com/images/bg_header.gif", "http://www.qa.rentals.com/images/bg_listyourprop.gif", "http://www.qa.rentals.com/images/bg_tab_selected.gif", "http://www.qa.rentals.com/images/bg_tab.gif", "http://www.qa.rentals.com/images/bg_breadcrumb.gif", "http://www.qa.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa.rentals.com/images/btn_largeGreen_right.gif", "http://www.qa.rentals.com/images/btn_largeGreen_left.gif", "http://www.qa.rentals.com/images/bg_bluebarheading.gif", "http://www.rentals.com/Images/btn_blue_right.gif", "http://www.rentals.com/Images/btn_blue_left.gif", "http://www.qa.rentals.com/Favicon.ico"]}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>100}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_css&t=text/css&v=14655", "http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_js&t=text/javascript&v=14655", "http://view.atdmt.com/jaction/bvkrtl_RNHomePage_1", "http://www.qa2.rentals.com/JavaScript/webtrends.js", "http://statse.webtrendslive.com/dcse9jgu710000gcwxahzyb97_4l7l/wtid.js", "http://an.tacoda.net/an/16157/slf.js", "http://an.tacoda.net/an/cda1.js", "http://www.qa.rentals.com/images/bg_header.gif", "http://www.qa.rentals.com/images/bg_listyourprop.gif", "http://www.qa.rentals.com/images/bg_tab_selected.gif", "http://www.qa.rentals.com/images/bg_tab.gif", "http://www.qa.rentals.com/images/bg_breadcrumb.gif", "http://www.qa.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa.rentals.com/images/btn_largeGreen_right.gif", "http://www.qa.rentals.com/images/btn_largeGreen_left.gif", "http://www.qa.rentals.com/images/bg_bluebarheading.gif", "http://www.rentals.com/Images/btn_blue_right.gif", "http://www.rentals.com/Images/btn_blue_left.gif", "http://www.qa2.rentals.com/images/logo_rentals.gif", "http://www.qa2.rentals.com/Images/x.gif", "http://www.qa2.rentals.com/images/icon_credit.gif", "http://www.qa2.rentals.com/images/icon_movers.gif", "http://www.qa2.rentals.com/images/icon_roommates.gif", "http://www.qa2.rentals.com/images/icon_utilities.gif", "http://www.qa2.rentals.com/images/primedia.gif", "http://www.qa.rentals.com/Favicon.ico", "http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://static.2mdn.net/568459/BT_RoboDob_300x250.swf"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>61}}, "r"=>36, "lt"=>3112, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:42:53) [POST]
+  Parameters: {"w"=>374637, "o"=>64, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 20 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>95, "components"=>["www.qa2.rentals.com", "onesearch.qa.primedia.com", "www.google-analytics.com", "ad.doubleclick.net", "static.2mdn.net"]}, "yjsbottom"=>{"score"=>55, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "Inline script tag #7", "Inline script tag #9"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>1, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/stylesheets/global.css", "http://www.qa2.rentals.com/stylesheets/homepage.css", "http://www.qa2.rentals.com/stylesheets/header.css", "http://www.qa2.rentals.com/stylesheets/footer.css", "http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "http://www.qa2.rentals.com/images/bg_header.png", "http://www.qa2.rentals.com/images/rentals_sprite.png", "http://www.qa2.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa2.rentals.com/images/bg_tab.gif", "http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://static.2mdn.net/568459/BT_RoboDob_300x250.swf", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_credit.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_movers.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_roommates.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_utilities.jpg"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>60}}, "r"=>38, "lt"=>3814, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:43:19) [POST]
+  Parameters: {"w"=>374635, "o"=>64, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 20 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>95, "components"=>["www.qa2.rentals.com", "onesearch.qa.primedia.com", "www.google-analytics.com", "ad.doubleclick.net", "static.2mdn.net"]}, "yjsbottom"=>{"score"=>55, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "Inline script tag #7", "Inline script tag #9"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>1, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/stylesheets/global.css", "http://www.qa2.rentals.com/stylesheets/homepage.css", "http://www.qa2.rentals.com/stylesheets/header.css", "http://www.qa2.rentals.com/stylesheets/footer.css", "http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "http://www.qa2.rentals.com/images/bg_header.png", "http://www.qa2.rentals.com/images/rentals_sprite.png", "http://www.qa2.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa2.rentals.com/images/bg_tab.gif", "http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://static.2mdn.net/568459/BT_RoboDob_300x250.swf", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_credit.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_movers.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_roommates.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_utilities.jpg"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>60}}, "r"=>38, "lt"=>3821, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:44:29) [POST]
+  Parameters: {"w"=>385110, "o"=>64, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 20 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>95, "components"=>["www.qa2.rentals.com", "onesearch.qa.primedia.com", "www.google-analytics.com", "ad.doubleclick.net", "static.2mdn.net"]}, "yjsbottom"=>{"score"=>55, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "Inline script tag #7", "Inline script tag #9"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>1, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/stylesheets/global.css", "http://www.qa2.rentals.com/stylesheets/homepage.css", "http://www.qa2.rentals.com/stylesheets/header.css", "http://www.qa2.rentals.com/stylesheets/footer.css", "http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "http://www.qa2.rentals.com/images/bg_header.png", "http://www.qa2.rentals.com/images/rentals_sprite.png", "http://www.qa2.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa2.rentals.com/images/bg_tab.gif", "http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://static.2mdn.net/568459/BT_Jersey_300x250.swf", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_credit.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_movers.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_roommates.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_utilities.jpg"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>60}}, "r"=>38, "lt"=>3932, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow?]
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:47:19) [POST]
+  Parameters: {"w"=>385116, "o"=>64, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 20 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>95, "components"=>["www.qa2.rentals.com", "onesearch.qa.primedia.com", "www.google-analytics.com", "ad.doubleclick.net", "static.2mdn.net"]}, "yjsbottom"=>{"score"=>55, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "Inline script tag #7", "Inline script tag #9"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>1, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/stylesheets/global.css", "http://www.qa2.rentals.com/stylesheets/homepage.css", "http://www.qa2.rentals.com/stylesheets/header.css", "http://www.qa2.rentals.com/stylesheets/footer.css", "http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "http://www.qa2.rentals.com/images/bg_header.png", "http://www.qa2.rentals.com/images/rentals_sprite.png", "http://www.qa2.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa2.rentals.com/images/bg_tab.gif", "http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://static.2mdn.net/568459/BT_Jersey_300x250.swf", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_credit.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_movers.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_roommates.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_utilities.jpg"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>60}}, "r"=>38, "lt"=>2304, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/yslow?]
+  [4;36;1mYslow Create (0.5ms)[0m   [0;1mINSERT INTO "yslows" ("timestamp", "url_id", "obfuscate", "w", "updated_at", "cdn", "expires", "o", "domains", "redirects", "user_agent", "expression", "ip", "r", "jsatbottom", "numcomps", "gzip", "etags", "cssattop", "jstwice", "u", "created_at") VALUES(NULL, NULL, NULL, 12345, '2010-01-22 20:55:17', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2010-01-22 20:55:17')[0m
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 15:55:48) [POST]
+  Parameters: {"w"=>397461, "o"=>64, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 20 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>95, "components"=>["www.qa2.rentals.com", "onesearch.qa.primedia.com", "www.google-analytics.com", "ad.doubleclick.net", "static.2mdn.net"]}, "yjsbottom"=>{"score"=>55, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "Inline script tag #7", "Inline script tag #9"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>1, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/stylesheets/global.css", "http://www.qa2.rentals.com/stylesheets/homepage.css", "http://www.qa2.rentals.com/stylesheets/header.css", "http://www.qa2.rentals.com/stylesheets/footer.css", "http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "http://www.qa2.rentals.com/images/bg_header.png", "http://www.qa2.rentals.com/images/rentals_sprite.png", "http://www.qa2.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa2.rentals.com/images/bg_tab.gif", "http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://static.2mdn.net/568459/BT_Locks_300x250.swf", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_credit.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_movers.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_roommates.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_utilities.jpg"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>60}}, "r"=>38, "lt"=>2529, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+  [4;36;1mYslow Create (0.5ms)[0m   [0;1mINSERT INTO "yslows" ("timestamp", "url_id", "obfuscate", "w", "updated_at", "cdn", "expires", "o", "domains", "redirects", "user_agent", "expression", "ip", "r", "jsatbottom", "numcomps", "gzip", "etags", "cssattop", "jstwice", "u", "created_at") VALUES(NULL, NULL, NULL, 397461, '2010-01-22 20:55:48', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2010-01-22 20:55:48')[0m
+Completed in 30ms (View: 1, DB: 1) | 200 OK [http://localhost/yslow?]
+  [4;35;1mYslow Load (0.7ms)[0m   [0mSELECT * FROM "yslows" [0m
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 16:01:07) [POST]
+  Parameters: {"w"=>392522, "o"=>64, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 20 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>95, "components"=>["www.qa2.rentals.com", "onesearch.qa.primedia.com", "www.google-analytics.com", "ad.doubleclick.net", "static.2mdn.net"]}, "yjsbottom"=>{"score"=>55, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "Inline script tag #7", "Inline script tag #9"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>1, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/stylesheets/global.css", "http://www.qa2.rentals.com/stylesheets/homepage.css", "http://www.qa2.rentals.com/stylesheets/header.css", "http://www.qa2.rentals.com/stylesheets/footer.css", "http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "http://www.qa2.rentals.com/images/bg_header.png", "http://www.qa2.rentals.com/images/rentals_sprite.png", "http://www.qa2.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa2.rentals.com/images/bg_tab.gif", "http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://static.2mdn.net/568459/3-BT_CoffeeLaptop_300x250.swf", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_credit.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_movers.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_roommates.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_utilities.jpg"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>60}}, "r"=>38, "lt"=>2658, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+
+NoMethodError (undefined method `ynumreq=' for #<Yslow:0x21f1e5c>):
+  app/controllers/beacon_controller.rb:9:in `yslow'
+  haml (2.2.8) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (107.7ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mYslow Load (0.3ms)[0m   [0;1mSELECT * FROM "yslows" WHERE ("yslows"."id" = 3) [0m
+  [4;35;1mYslow Load (0.5ms)[0m   [0mSELECT * FROM "yslows" WHERE ("yslows"."id" = 2) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 16:03:25) [POST]
+  Parameters: {"w"=>392519, "o"=>64, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 20 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>95, "components"=>["www.qa2.rentals.com", "onesearch.qa.primedia.com", "www.google-analytics.com", "ad.doubleclick.net", "static.2mdn.net"]}, "yjsbottom"=>{"score"=>55, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "Inline script tag #7", "Inline script tag #9"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>1, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/stylesheets/global.css", "http://www.qa2.rentals.com/stylesheets/homepage.css", "http://www.qa2.rentals.com/stylesheets/header.css", "http://www.qa2.rentals.com/stylesheets/footer.css", "http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "http://www.qa2.rentals.com/images/bg_header.png", "http://www.qa2.rentals.com/images/rentals_sprite.png", "http://www.qa2.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa2.rentals.com/images/bg_tab.gif", "http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://static.2mdn.net/568459/3-BT_CoffeeLaptop_300x250.swf", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_credit.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_movers.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_roommates.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_utilities.jpg"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>60}}, "r"=>38, "lt"=>2602, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+  [4;35;1mYslow2 Create (0.6ms)[0m   [0mINSERT INTO "yslow2s" ("timestamp", "url_id", "ycsstop", "w", "yredirects", "yno404", "updated_at", "yexpressions", "ymindom", "details", "yxhrmethod", "o", "yexternal", "ydns", "yfavicon", "user_agent", "yjsbottom", "ip", "r", "yminify", "ymincookie", "ynofilter", "lt", "i", "ycdn", "yexpires", "ycompress", "ydupes", "yetags", "yxhr", "ycookiefree", "yimgnoscale", "ynumreq", "created_at") VALUES(NULL, NULL, NULL, 392519, NULL, NULL, '2010-01-22 21:03:25', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 60, '2010-01-22 21:03:25')[0m
+Completed in 22ms (View: 1, DB: 1) | 200 OK [http://localhost/yslow?]
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mYslow2 Load (1.1ms)[0m   [0;1mSELECT * FROM "yslow2s" [0m
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 16:14:38) [POST]
+  Parameters: {"w"=>400754, "o"=>64, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 20 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>95, "components"=>["www.qa2.rentals.com", "onesearch.qa.primedia.com", "www.google-analytics.com", "ad.doubleclick.net", "static.2mdn.net"]}, "yjsbottom"=>{"score"=>55, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "Inline script tag #7", "Inline script tag #9"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>1, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/stylesheets/global.css", "http://www.qa2.rentals.com/stylesheets/homepage.css", "http://www.qa2.rentals.com/stylesheets/header.css", "http://www.qa2.rentals.com/stylesheets/footer.css", "http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "http://www.qa2.rentals.com/images/bg_header.png", "http://www.qa2.rentals.com/images/rentals_sprite.png", "http://www.qa2.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa2.rentals.com/images/bg_tab.gif", "http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://static.2mdn.net/568459/BT_Locks_300x250.swf", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_credit.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_movers.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_roommates.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_utilities.jpg"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>60}}, "r"=>38, "lt"=>2703, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+  [4;36;1mYslow2 Create (0.7ms)[0m   [0;1mINSERT INTO "yslow2s" ("timestamp", "url_id", "ycsstop", "w", "yredirects", "yno404", "updated_at", "yexpressions", "ymindom", "details", "yxhrmethod", "o", "yexternal", "ydns", "yfavicon", "user_agent", "yjsbottom", "ip", "r", "yminify", "ymincookie", "ynofilter", "lt", "i", "ycdn", "yexpires", "ycompress", "ydupes", "yetags", "yxhr", "ycookiefree", "yimgnoscale", "ynumreq", "created_at") VALUES(NULL, NULL, 100, 400754, 100, 100, '2010-01-22 21:14:38', 100, 100, NULL, 100, 64, 0, 95, 100, NULL, 55, NULL, 38, 60, 100, 100, NULL, 'ydefault', 0, 0, 1, 100, 100, 100, 60, 100, 60, '2010-01-22 21:14:38')[0m
+Completed in 27ms (View: 1, DB: 1) | 200 OK [http://localhost/yslow?]
+  [4;35;1mYslow2 Load (1.0ms)[0m   [0mSELECT * FROM "yslow2s" [0m
+  [4;36;1mYslow2 Load (0.7ms)[0m   [0;1mSELECT * FROM "yslow2s" WHERE ("yslow2s"."id" = 2) [0m
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 16:16:52) [POST]
+  Parameters: {"w"=>220191, "o"=>73, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>82, "components"=>["http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_css&t=text/css&v=14655"]}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 1 inline css", "There are a total of 14 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>75, "components"=>["www.qa2.rentals.com", "www.qa.rentals.com", "www.google-analytics.com", "view.atdmt.com", "statse.webtrendslive.com", "an.tacoda.net", "www.rentals.com", "ad.doubleclick.net", "static.2mdn.net"]}, "yjsbottom"=>{"score"=>95, "components"=>["http://www.google-analytics.com/urchin.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>90, "components"=>["Inline script tag #4"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>80, "components"=>["http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_js&t=text/javascript&v=14655", "http://view.atdmt.com/jaction/bvkrtl_RNHomePage_1", "http://www.qa2.rentals.com/JavaScript/webtrends.js", "http://statse.webtrendslive.com/dcse9jgu710000gcwxahzyb97_4l7l/wtid.js"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/JavaScript/webtrends.js", "http://www.qa.rentals.com/images/bg_header.gif", "http://www.qa.rentals.com/images/bg_listyourprop.gif", "http://www.qa.rentals.com/images/bg_tab_selected.gif", "http://www.qa.rentals.com/images/bg_tab.gif", "http://www.qa.rentals.com/images/bg_breadcrumb.gif", "http://www.qa.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa.rentals.com/images/btn_largeGreen_right.gif", "http://www.qa.rentals.com/images/btn_largeGreen_left.gif", "http://www.qa.rentals.com/images/bg_bluebarheading.gif", "http://www.rentals.com/Images/btn_blue_right.gif", "http://www.rentals.com/Images/btn_blue_left.gif", "http://www.qa.rentals.com/Favicon.ico"]}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>100}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_css&t=text/css&v=14655", "http://www.qa.rentals.com/Httpcombiner.ashx?s=default_aspx_js&t=text/javascript&v=14655", "http://view.atdmt.com/jaction/bvkrtl_RNHomePage_1", "http://www.qa2.rentals.com/JavaScript/webtrends.js", "http://statse.webtrendslive.com/dcse9jgu710000gcwxahzyb97_4l7l/wtid.js", "http://an.tacoda.net/an/16157/slf.js", "http://an.tacoda.net/an/cda1.js", "http://www.qa.rentals.com/images/bg_header.gif", "http://www.qa.rentals.com/images/bg_listyourprop.gif", "http://www.qa.rentals.com/images/bg_tab_selected.gif", "http://www.qa.rentals.com/images/bg_tab.gif", "http://www.qa.rentals.com/images/bg_breadcrumb.gif", "http://www.qa.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa.rentals.com/images/btn_largeGreen_right.gif", "http://www.qa.rentals.com/images/btn_largeGreen_left.gif", "http://www.qa.rentals.com/images/bg_bluebarheading.gif", "http://www.rentals.com/Images/btn_blue_right.gif", "http://www.rentals.com/Images/btn_blue_left.gif", "http://www.qa2.rentals.com/images/logo_rentals.gif", "http://www.qa2.rentals.com/Images/x.gif", "http://www.qa2.rentals.com/images/icon_credit.gif", "http://www.qa2.rentals.com/images/icon_movers.gif", "http://www.qa2.rentals.com/images/icon_roommates.gif", "http://www.qa2.rentals.com/images/icon_utilities.gif", "http://www.qa2.rentals.com/images/primedia.gif", "http://www.qa.rentals.com/Favicon.ico", "http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://static.2mdn.net/568459/BT_Jersey_300x250.swf"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>61}}, "r"=>36, "lt"=>2695, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+  [4;35;1mYslow2 Create (1.0ms)[0m   [0mINSERT INTO "yslow2s" ("timestamp", "url_id", "ycsstop", "w", "yredirects", "yno404", "updated_at", "yexpressions", "ymindom", "details", "yxhrmethod", "o", "yexternal", "ydns", "yfavicon", "user_agent", "yjsbottom", "ip", "r", "yminify", "ymincookie", "ynofilter", "lt", "i", "ycdn", "yexpires", "ycompress", "ydupes", "yetags", "yxhr", "ycookiefree", "yimgnoscale", "ynumreq", "created_at") VALUES(NULL, NULL, 100, 220191, 100, 100, '2010-01-22 21:16:53', 82, 100, NULL, 100, 73, 0, 75, 100, NULL, 95, NULL, 36, 90, 100, 100, NULL, 'ydefault', 0, 0, 100, 100, 0, 100, 80, 100, 61, '2010-01-22 21:16:53')[0m
+Completed in 100ms (View: 1, DB: 1) | 200 OK [http://localhost/yslow?]
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateYslow2s (20100122145019)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mDROP TABLE "yslow2s"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100122145019'[0m
+Migrating to CreateYslows (20100122144602)
+  [4;35;1mSQL (0.5ms)[0m   [0mDROP TABLE "yslows"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100122144602'[0m
+Migrating to CreateUrls (20100122144333)
+  [4;35;1mSQL (0.6ms)[0m   [0mDROP TABLE "urls"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100122144333'[0m
+Migrating to CreatePageSpeeds (20100122143902)
+  [4;35;1mSQL (0.6ms)[0m   [0mDROP TABLE "page_speeds"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100122143902'[0m
+Migrating to CreateEvents (20100122143045)
+  [4;35;1mSQL (0.5ms)[0m   [0mDROP TABLE "events"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100122143045'[0m
+  [4;35;1mSQL (0.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateEvents (20100122143045)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "type" varchar(255), "url_prefix" blob, "title" text, "start" datetime, "end" datetime, "resource_url" blob, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCREATE UNIQUE INDEX "index_events_on_start" ON "events" ("start")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100122143045')[0m
+Migrating to CreatePageSpeeds (20100122143902)
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "page_speeds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "ip" integer, "user_agent" text, "url_id" integer, "w" integer, "o" float, "l" integer, "r" integer, "t" integer, "v" text, "pMinifyCSS" float, "pMinifyJS" float, "pOptImgs" float, "pImgDims" float, "pCombineJS" float, "pCombineCSS" float, "pCssInHead" float, "pBrowserCache" float, "pProxyCache" float, "pNoCookie" float, "pCookieSize" float, "pParallelDl" float, "pCssSelect" float, "pCssJsOrder" float, "pDeferJS" float, "pGzip" float, "pMinRedirect" float, "pCssExpr" float, "pUnusedCSS" float, "pMinDNS" float, "pDudeRsrc" float, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE UNIQUE INDEX "index_page_speeds_on_url_id" ON "page_speeds" ("url_id")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100122143902')[0m
+Migrating to CreateUrls (20100122144333)
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE TABLE "urls" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "url" blob, "last_update" datetime, "last_event_update" datetime, "w" integer, "o" integer, "r" integer, "ps_w" integer, "ps_o" float, "ps_l" integer, "ps_r" integer, "ps_t" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCREATE UNIQUE INDEX "index_urls_on_last_update" ON "urls" ("last_update")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100122144333')[0m
+Migrating to CreateYslows (20100122144602)
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCREATE TABLE "yslows" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "url_id" integer, "ip" integer, "user_agent" text, "w" integer, "o" integer, "u" text, "r" integer, "numcomps" integer, "cdn" integer, "expires" integer, "gzip" integer, "cssattop" integer, "jsatbottom" integer, "expression" integer, "domains" integer, "obfuscate" integer, "redirects" integer, "jstwice" integer, "etags" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100122144602')[0m
+Migrating to CreateYslow2s (20100122145019)
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "yslow2s" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "url_id" integer, "ip" integer, "user_agent" text, "w" integer, "o" integer, "r" integer, "i" text, "lt" integer, "ynumreq" integer, "ycdn" integer, "yexpires" integer, "ycompress" integer, "ycsstop" integer, "yjsbottom" integer, "yexpressions" integer, "yexternal" integer, "ydns" integer, "yminify" integer, "yredirects" integer, "ydupes" integer, "yetags" integer, "yxhr" integer, "yxhrmethod" integer, "ymindom" integer, "yno404" integer, "ymincookie" integer, "ycookiefree" integer, "ynofilter" integer, "yimgnoscale" integer, "yfavicon" integer, "details" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE UNIQUE INDEX "index_yslow2s_on_url_id" ON "yslow2s" ("url_id")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100122145019')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("events")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_events_on_start')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("page_speeds")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_page_speeds_on_url_id')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("urls")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_urls_on_last_update')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("yslow2s")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_yslow2s_on_url_id')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("yslows")[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateYslow2s (20100122145019)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mDROP TABLE "yslow2s"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100122145019'[0m
+Migrating to CreateYslows (20100122144602)
+  [4;35;1mSQL (0.4ms)[0m   [0mDROP TABLE "yslows"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100122144602'[0m
+Migrating to CreatePageSpeeds (20100122143902)
+  [4;35;1mSQL (0.5ms)[0m   [0mDROP TABLE "page_speeds"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100122143902'[0m
+Migrating to CreateEvents (20100122143045)
+  [4;35;1mSQL (0.6ms)[0m   [0mDROP TABLE "events"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100122143045'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("urls")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_urls_on_last_update')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateEvents (20100122143045)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "type" varchar(255), "url_prefix" blob, "title" text, "start" datetime, "end" datetime, "resource_url" blob, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCREATE UNIQUE INDEX "index_events_on_start" ON "events" ("start")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100122143045')[0m
+Migrating to CreatePageSpeeds (20100122143902)
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "page_speeds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "ip" integer, "user_agent" text, "url_id" integer, "w" integer, "o" float, "l" integer, "r" integer, "t" integer, "v" text, "pMinifyCSS" float, "pMinifyJS" float, "pOptImgs" float, "pImgDims" float, "pCombineJS" float, "pCombineCSS" float, "pCssInHead" float, "pBrowserCache" float, "pProxyCache" float, "pNoCookie" float, "pCookieSize" float, "pParallelDl" float, "pCssSelect" float, "pCssJsOrder" float, "pDeferJS" float, "pGzip" float, "pMinRedirect" float, "pCssExpr" float, "pUnusedCSS" float, "pMinDNS" float, "pDudeRsrc" float, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE UNIQUE INDEX "index_page_speeds_on_url_id" ON "page_speeds" ("url_id")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100122143902')[0m
+Migrating to CreateYslows (20100122144602)
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE TABLE "yslows" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "url_id" integer, "ip" integer, "user_agent" text, "w" integer, "o" integer, "u" text, "r" integer, "numcomps" integer, "cdn" integer, "expires" integer, "gzip" integer, "cssattop" integer, "jsatbottom" integer, "expression" integer, "domains" integer, "obfuscate" integer, "redirects" integer, "jstwice" integer, "etags" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100122144602')[0m
+Migrating to CreateYslow2s (20100122145019)
+  [4;35;1mSQL (1.0ms)[0m   [0mCREATE TABLE "yslow2s" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "url_id" integer, "ip" integer, "user_agent" text, "w" integer, "o" integer, "r" integer, "i" text, "lt" integer, "ynumreq" integer, "ycdn" integer, "yexpires" integer, "ycompress" integer, "ycsstop" integer, "yjsbottom" integer, "yexpressions" integer, "yexternal" integer, "ydns" integer, "yminify" integer, "yredirects" integer, "ydupes" integer, "yetags" integer, "yxhr" integer, "yxhrmethod" integer, "ymindom" integer, "yno404" integer, "ymincookie" integer, "ycookiefree" integer, "ynofilter" integer, "yimgnoscale" integer, "yfavicon" integer, "details" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE UNIQUE INDEX "index_yslow2s_on_url_id" ON "yslow2s" ("url_id")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100122145019')[0m
+Migrating to CreateUrls (20100122215500)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSQLite3::SQLException: table "urls" already exists: CREATE TABLE "urls" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "url" blob, "last_update" datetime, "last_event_update" datetime, "w" integer, "o" integer, "r" integer, "ps_w" integer, "ps_o" float, "ps_l" integer, "ps_r" integer, "ps_t" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateYslow2s (20100122145019)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mDROP TABLE "yslow2s"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100122145019'[0m
+Migrating to CreateYslows (20100122144602)
+  [4;35;1mSQL (0.5ms)[0m   [0mDROP TABLE "yslows"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100122144602'[0m
+Migrating to CreatePageSpeeds (20100122143902)
+  [4;35;1mSQL (0.6ms)[0m   [0mDROP TABLE "page_speeds"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100122143902'[0m
+Migrating to CreateEvents (20100122143045)
+  [4;35;1mSQL (0.5ms)[0m   [0mDROP TABLE "events"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100122143045'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("urls")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_urls_on_last_update')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.7ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.5ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateEvents (20100122143045)
+  [4;36;1mSQL (1.1ms)[0m   [0;1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "type" varchar(255), "url_prefix" blob, "title" text, "start" datetime, "end" datetime, "resource_url" blob, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCREATE UNIQUE INDEX "index_events_on_start" ON "events" ("start")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100122143045')[0m
+Migrating to CreatePageSpeeds (20100122143902)
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE TABLE "page_speeds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "ip" integer, "user_agent" text, "url_id" integer, "w" integer, "o" float, "l" integer, "r" integer, "t" integer, "v" text, "pMinifyCSS" float, "pMinifyJS" float, "pOptImgs" float, "pImgDims" float, "pCombineJS" float, "pCombineCSS" float, "pCssInHead" float, "pBrowserCache" float, "pProxyCache" float, "pNoCookie" float, "pCookieSize" float, "pParallelDl" float, "pCssSelect" float, "pCssJsOrder" float, "pDeferJS" float, "pGzip" float, "pMinRedirect" float, "pCssExpr" float, "pUnusedCSS" float, "pMinDNS" float, "pDudeRsrc" float, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCREATE UNIQUE INDEX "index_page_speeds_on_url_id" ON "page_speeds" ("url_id")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100122143902')[0m
+Migrating to CreateYslows (20100122144602)
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "yslows" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "url_id" integer, "ip" integer, "user_agent" text, "w" integer, "o" integer, "u" text, "r" integer, "numcomps" integer, "cdn" integer, "expires" integer, "gzip" integer, "cssattop" integer, "jsatbottom" integer, "expression" integer, "domains" integer, "obfuscate" integer, "redirects" integer, "jstwice" integer, "etags" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100122144602')[0m
+Migrating to CreateYslow2s (20100122145019)
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCREATE TABLE "yslow2s" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "url_id" integer, "ip" integer, "user_agent" text, "w" integer, "o" integer, "r" integer, "i" text, "lt" integer, "ynumreq" integer, "ycdn" integer, "yexpires" integer, "ycompress" integer, "ycsstop" integer, "yjsbottom" integer, "yexpressions" integer, "yexternal" integer, "ydns" integer, "yminify" integer, "yredirects" integer, "ydupes" integer, "yetags" integer, "yxhr" integer, "yxhrmethod" integer, "ymindom" integer, "yno404" integer, "ymincookie" integer, "ycookiefree" integer, "ynofilter" integer, "yimgnoscale" integer, "yfavicon" integer, "details" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE UNIQUE INDEX "index_yslow2s_on_url_id" ON "yslow2s" ("url_id")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100122145019')[0m
+Migrating to CreateUrls (20100122215500)
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE TABLE "urls" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "url" blob, "last_update" datetime, "last_event_update" datetime, "w" integer, "o" integer, "r" integer, "ps_w" integer, "ps_o" float, "ps_l" integer, "ps_r" integer, "ps_t" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCREATE UNIQUE INDEX "index_urls_on_last_update" ON "urls" ("last_update")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100122215500')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("events")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_info('index_events_on_start')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("page_speeds")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_info('index_page_speeds_on_url_id')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("urls")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_info('index_urls_on_last_update')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("yslow2s")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_info('index_yslow2s_on_url_id')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("yslows")[0m
+
+
+Processing ApplicationController#yslow (for 127.0.0.1 at 2010-01-22 17:13:45) [GET]
+
+SyntaxError (/Users/mmuskardin/source/bfast/app/controllers/beacon_controller.rb:67: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (36.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#yslow (for 127.0.0.1 at 2010-01-22 17:13:46) [POST]
+  Parameters: {"w"=>11372, "o"=>98, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 1 inline css"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>100}, "yjsbottom"=>{"score"=>100}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>90, "components"=>["Inline style tag #1"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>100}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>89, "components"=>["http://localhost:3000/yslow"]}, "yexpires"=>{"score"=>100}, "ycdn"=>{"score"=>100}, "ynumreq"=>{"score"=>100}}, "r"=>1, "lt"=>219, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//localhost%3A3000/yslow"}
+
+SyntaxError (/Users/mmuskardin/source/bfast/app/controllers/beacon_controller.rb:67: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (34.2ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 17:14:03) [GET]
+
+TypeError (can't convert nil into String):
+  json (1.1.9) lib/json/common.rb:122:in `initialize'
+  json (1.1.9) lib/json/common.rb:122:in `new'
+  json (1.1.9) lib/json/common.rb:122:in `parse'
+  app/controllers/beacon_controller.rb:4:in `yslow'
+  haml (2.2.8) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (36.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 17:14:03) [POST]
+  Parameters: {"w"=>12604, "o"=>98, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 1 inline css"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>100}, "yjsbottom"=>{"score"=>100}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>90, "components"=>["Inline style tag #1"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>100}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>89, "components"=>["http://localhost:3000/yslow"]}, "yexpires"=>{"score"=>100}, "ycdn"=>{"score"=>100}, "ynumreq"=>{"score"=>100}}, "r"=>1, "lt"=>324, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//localhost%3A3000/yslow"}
+
+NameError (undefined local variable or method `url' for #<BeaconController:0x244229c>):
+  app/controllers/beacon_controller.rb:6:in `yslow'
+  haml (2.2.8) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (33.9ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BeaconController#yslow (for 127.0.0.1 at 2010-01-22 17:15:19) [POST]
+  Parameters: {"w"=>369800, "o"=>64, "g"=>{"ycsstop"=>{"score"=>100}, "yno404"=>{"score"=>100}, "yredirects"=>{"score"=>100}, "ymindom"=>{"score"=>100}, "yexpressions"=>{"score"=>100}, "yxhrmethod"=>{"score"=>100}, "yexternal"=>{"score"=>"n/a", "components"=>["There are a total of 20 inline scripts"]}, "yfavicon"=>{"score"=>100}, "ydns"=>{"score"=>95, "components"=>["www.qa2.rentals.com", "onesearch.qa.primedia.com", "www.google-analytics.com", "ad.doubleclick.net", "static.2mdn.net"]}, "yjsbottom"=>{"score"=>55, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "ynofilter"=>{"score"=>100}, "ymincookie"=>{"score"=>100}, "yminify"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "Inline script tag #7", "Inline script tag #9"]}, "yimgnoscale"=>{"score"=>100}, "ycookiefree"=>{"score"=>60, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yxhr"=>{"score"=>100}, "yetags"=>{"score"=>100}, "ydupes"=>{"score"=>100}, "ycompress"=>{"score"=>1, "components"=>["http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js"]}, "yexpires"=>{"score"=>0, "components"=>["http://www.qa2.rentals.com/stylesheets/global.css", "http://www.qa2.rentals.com/stylesheets/homepage.css", "http://www.qa2.rentals.com/stylesheets/header.css", "http://www.qa2.rentals.com/stylesheets/footer.css", "http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js", "http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js", "http://www.qa2.rentals.com/javascripts/jquery.cookie.js", "http://www.qa2.rentals.com/javascripts/application.js", "http://www.qa2.rentals.com/javascripts/autocomplete.js", "http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js", "http://onesearch.qa.primedia.com/javascripts/onesearch_min.js", "http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js", "http://www.qa2.rentals.com/javascripts/webtrends-bindings.js", "http://www.qa2.rentals.com/images/bg_header.png", "http://www.qa2.rentals.com/images/rentals_sprite.png", "http://www.qa2.rentals.com/images/bg_mainsearch_lightblue.jpg", "http://www.qa2.rentals.com/images/bg_tab.gif", "http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu", "http://static.2mdn.net/568459/BT_RoboDob_300x250.swf", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_credit.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_movers.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_roommates.jpg", "http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_utilities.jpg"]}, "ycdn"=>{"score"=>0}, "ynumreq"=>{"score"=>60}}, "r"=>32, "lt"=>2660, "s"=>"", "i"=>"ydefault", "u"=>"http%3A//www.qa2.rentals.com/"}
+  [4;36;1mYslow2 Create (0.6ms)[0m   [0;1mINSERT INTO "yslow2s" ("url_id", "ycsstop", "w", "yredirects", "yno404", "updated_at", "yexpressions", "ymindom", "details", "yxhrmethod", "o", "yexternal", "ydns", "yfavicon", "user_agent", "yjsbottom", "ip", "r", "yminify", "ymincookie", "ynofilter", "lt", "i", "ycdn", "yexpires", "ycompress", "ydupes", "yetags", "yxhr", "ycookiefree", "yimgnoscale", "ynumreq", "created_at") VALUES(NULL, 100, 369800, 100, 100, '2010-01-22 22:15:19', 100, 100, '--- 
+w: 369800
+o: 64
+g: 
+ ycsstop: 
+ score: 100
+ yno404: 
+ score: 100
+ yredirects: 
+ score: 100
+ ymindom: 
+ score: 100
+ yexpressions: 
+ score: 100
+ yxhrmethod: 
+ score: 100
+ yexternal: 
+ score: n/a
+ components: 
+ - There are a total of 20 inline scripts
+ yfavicon: 
+ score: 100
+ ydns: 
+ score: 95
+ components: 
+ - www.qa2.rentals.com
+ - onesearch.qa.primedia.com
+ - www.google-analytics.com
+ - ad.doubleclick.net
+ - static.2mdn.net
+ yjsbottom: 
+ score: 55
+ components: 
+ - http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js
+ - http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js
+ - http://www.qa2.rentals.com/javascripts/jquery.cookie.js
+ - http://www.qa2.rentals.com/javascripts/application.js
+ - http://www.qa2.rentals.com/javascripts/autocomplete.js
+ - http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js
+ - http://onesearch.qa.primedia.com/javascripts/onesearch_min.js
+ - http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js
+ - http://www.qa2.rentals.com/javascripts/webtrends-bindings.js
+ ynofilter: 
+ score: 100
+ ymincookie: 
+ score: 100
+ yminify: 
+ score: 60
+ components: 
+ - http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js
+ - http://www.qa2.rentals.com/javascripts/webtrends-bindings.js
+ - "Inline script tag #7"
+ - "Inline script tag #9"
+ yimgnoscale: 
+ score: 100
+ ycookiefree: 
+ score: 60
+ components: 
+ - http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js
+ - http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js
+ - http://www.qa2.rentals.com/javascripts/jquery.cookie.js
+ - http://www.qa2.rentals.com/javascripts/application.js
+ - http://www.qa2.rentals.com/javascripts/autocomplete.js
+ - http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js
+ - http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js
+ - http://www.qa2.rentals.com/javascripts/webtrends-bindings.js
+ yxhr: 
+ score: 100
+ yetags: 
+ score: 100
+ ydupes: 
+ score: 100
+ ycompress: 
+ score: 1
+ components: 
+ - http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js
+ - http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js
+ - http://www.qa2.rentals.com/javascripts/jquery.cookie.js
+ - http://www.qa2.rentals.com/javascripts/application.js
+ - http://www.qa2.rentals.com/javascripts/autocomplete.js
+ - http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js
+ - http://onesearch.qa.primedia.com/javascripts/onesearch_min.js
+ - http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js
+ - http://www.qa2.rentals.com/javascripts/webtrends-bindings.js
+ yexpires: 
+ score: 0
+ components: 
+ - http://www.qa2.rentals.com/stylesheets/global.css
+ - http://www.qa2.rentals.com/stylesheets/homepage.css
+ - http://www.qa2.rentals.com/stylesheets/header.css
+ - http://www.qa2.rentals.com/stylesheets/footer.css
+ - http://www.qa2.rentals.com/javascripts/jquery-1.3.2.min.js
+ - http://www.qa2.rentals.com/javascripts/jquery-ui-1.7.2.custom.min.js
+ - http://www.qa2.rentals.com/javascripts/jquery.cookie.js
+ - http://www.qa2.rentals.com/javascripts/application.js
+ - http://www.qa2.rentals.com/javascripts/autocomplete.js
+ - http://www.qa2.rentals.com/v1/leads/jquery.lead_service.js
+ - http://onesearch.qa.primedia.com/javascripts/onesearch_min.js
+ - http://www.qa2.rentals.com/javascripts/primedia-webtrends-1.0.2.js
+ - http://www.qa2.rentals.com/javascripts/webtrends-bindings.js
+ - http://www.qa2.rentals.com/images/bg_header.png
+ - http://www.qa2.rentals.com/images/rentals_sprite.png
+ - http://www.qa2.rentals.com/images/bg_mainsearch_lightblue.jpg
+ - http://www.qa2.rentals.com/images/bg_tab.gif
+ - http://static.2mdn.net/2451464/3_R_HP_Experian_revised_HP_module_R_RH_10.18.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/392a/3/0/%252a/h%253B218425106%253B0-0%253B1%253B41425052%253B3823-300/100%253B33856162/33874040/1%253B%253B%257Esscs%253D%253fhttp%3A//ad.doubleclick.net/clk%3B218686581%3B37192590%3Bu
+ - http://static.2mdn.net/568459/BT_RoboDob_300x250.swf
+ - http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_credit.jpg
+ - http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_movers.jpg
+ - http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_roommates.jpg
+ - http://static.2mdn.net/viewad/2537490/R_homepg.textlink_235x50_utilities.jpg
+ ycdn: 
+ score: 0
+ ynumreq: 
+ score: 60
+r: 32
+lt: 2660
+s: ""
+i: ydefault
+u: http%3A//www.qa2.rentals.com/
+', 100, 64, 0, 95, 100, 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.7) Gecko/20091221 Firefox/3.5.7', 55, NULL, 32, 60, 100, 100, 2660, 'ydefault', 0, 0, 1, 100, 100, 100, 60, 100, 60, '2010-01-22 22:15:19')[0m
+Completed in 169ms (View: 1, DB: 1) | 200 OK [http://localhost/yslow?]
