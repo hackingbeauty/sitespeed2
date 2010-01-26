@@ -9,6 +9,7 @@ class CreateYslow2s < ActiveRecord::Migration
       t.integer :o
       t.integer :r
       t.text :i
+      t.integer :s
       t.integer :lt
       t.integer :ynumreq
       t.integer :ycdn
@@ -36,7 +37,7 @@ class CreateYslow2s < ActiveRecord::Migration
 
       t.timestamps
     end
-    add_index :yslow2s, :url_id, :unique => true
+    #add_index :yslow2s, :url_id, :unique => true
   end
 
   def self.down

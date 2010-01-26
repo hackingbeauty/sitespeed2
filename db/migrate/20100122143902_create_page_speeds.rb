@@ -30,9 +30,10 @@ class CreatePageSpeeds < ActiveRecord::Migration
       t.float :pMinRedirect
       t.float :pCssExpr
       t.float :pUnusedCSS
-      t.float :pMinDNS
-      t.float :pDudeRsrc
       t.float :pScaleImgs
+      t.float :pMinDns
+      t.float :pAvoidBadRequests
+      t.float :pDupeRsrc
       
       t.timestamps
     end
