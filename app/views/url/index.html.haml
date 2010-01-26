@@ -1,4 +1,16 @@
-%ul
-  - @urls.each do |u|
-    %li
-      = link_to u.url, u
+%table
+  %thead
+    %th
+      URL
+    %th
+      Yslow
+    %th
+      Page Speed
+  %tbody
+    - @grades.each do |k,v|
+      %tr
+        %td
+          = k.url
+          - v.each do |y,val|
+            %td
+              = val

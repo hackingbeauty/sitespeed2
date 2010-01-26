@@ -37,7 +37,7 @@ class CreatePageSpeeds < ActiveRecord::Migration
       
       t.timestamps
     end
-    add_index :page_speeds, :url_id, :unique => true
+    # add_index :page_speeds, :url_id, :unique => true
   end
 
   def self.down

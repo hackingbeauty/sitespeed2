@@ -1,7 +1,18 @@
 %table
-  - @yslow_scores.each do |y|
-    
-    
-    %li
-      = y.user_agent 
-      
+  %thead
+    %tr
+      %th
+        = @url_name
+      %th
+        Weight
+      %th
+        Overall Score
+  %tbody
+    - @yslow_scores.each do |y|
+      %tr
+        %td
+          = y.created_at
+        %td
+          = y.w
+        %td
+          = y.o
