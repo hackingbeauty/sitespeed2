@@ -3,14 +3,15 @@
     %th
       URL
     %th
-      Yslow
-    %th
-      Page Speed
+      Yslow Grade
+    / %th
+    /   Pagespeed Grade
   %tbody
     - @grades.each do |k,v|
       %tr
         %td
-          = k.url
-          - v.each do |val|
-            %td
-              = val
+          = v['url']
+        %td
+          = v['yslow']
+        %td
+          = v['page_speed']
