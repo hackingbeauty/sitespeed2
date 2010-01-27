@@ -1,0 +1,71 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: 1
+  timestamp: 2010-01-22 09:50:19
+  url_id: 1
+  ip: 1
+  user_agent: MyText
+  w: 1
+  o: 1
+  r: 1
+  i: MyText
+  lt: 1
+  ynumreq: 1
+  ycdn: 1
+  yexpires: 1
+  ycompress: 1
+  ycsstop: 1
+  yjsbottom: 1
+  yexpressions: 1
+  yexternal: 1
+  ydns: 1
+  yminify: 1
+  yredirects: 1
+  ydupes: 1
+  yetags: 1
+  yxhr: 1
+  yxhrmethod: 1
+  ymindom: 1
+  yno404: 1
+  ymincookie: 1
+  ycookiefree: 1
+  ynofilter: 1
+  yimgnoscale: 1
+  yfavicon: 1
+  details: MyText
+
+two:
+  id: 1
+  timestamp: 2010-01-22 09:50:19
+  url_id: 1
+  ip: 1
+  user_agent: MyText
+  w: 1
+  o: 1
+  r: 1
+  i: MyText
+  lt: 1
+  ynumreq: 1
+  ycdn: 1
+  yexpires: 1
+  ycompress: 1
+  ycsstop: 1
+  yjsbottom: 1
+  yexpressions: 1
+  yexternal: 1
+  ydns: 1
+  yminify: 1
+  yredirects: 1
+  ydupes: 1
+  yetags: 1
+  yxhr: 1
+  yxhrmethod: 1
+  ymindom: 1
+  yno404: 1
+  ymincookie: 1
+  ycookiefree: 1
+  ynofilter: 1
+  yimgnoscale: 1
+  yfavicon: 1
+  details: MyText

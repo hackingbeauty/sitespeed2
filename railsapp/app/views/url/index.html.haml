@@ -1,0 +1,16 @@
+%table
+  %thead
+    %th
+      URL
+    %th
+      Yslow
+    %th
+      Page Speed
+  %tbody
+    - @grades.each do |k,v|
+      %tr
+        %td
+          = k.url
+          - v.each do |val|
+            %td
+              = val
