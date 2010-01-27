@@ -2,19 +2,14 @@ class UrlController < ApplicationController
   
   def index
     @urls = Url.find(:all)
-    @grades = {}
+    @grades = Hash.new { |hash,key| hash[key] = [] }
     
     @urls.each do |u|
       y = u.yslow2s.find(:last)
       p = u.page_speeds.find(:last)
-      
-      @grades[:url] = u
-      @grades[:url][:yslow] = y.o
-      unless p == nil
-        @grades[:url][:page_speed] = p.o
-      end
-    end
-    
+      @grades[u][0] = (y==nil) ? 'N/A' : y.o 
+      @grades[u][1] = (p==nil) ? 'N/A' : p.o 
+    end 
   end
 
   def show
