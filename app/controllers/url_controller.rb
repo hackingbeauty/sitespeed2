@@ -7,8 +7,8 @@ class UrlController < ApplicationController
     @urls.each do |u|
       y = u.yslow2s.find(:last)
       p = u.page_speeds.find(:last)
-      @grades[u][0] = (y==nil) ? 'N/A' : y.o #.store(:yslow, y.o) unless y == nil
-      @grades[u][1] = (p==nil) ? 'N/A' : p.o #.store(:page_speed, p.o) unless p == nil
+      @grades[u][0] = (y==nil) ? 'N/A' : y.o 
+      @grades[u][1] = (p==nil) ? 'N/A' : p.o 
     end 
   end
 
