@@ -1,3 +1,0 @@
-class BfastController < ApplicationController
-    
-end
