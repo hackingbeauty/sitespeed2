@@ -1,0 +1,35 @@
+
+/*	=Main Styles
+	...................................................................... */
+	
+body {font-family:Verdana,Arial,Helvetica,sans-serif;font-size:small;background-color:black;} /*#1969a9*/
+
+.container {background-color:white;-moz-border-radius:10px;-webkit-border-radius:5px;padding:20px;margin:0 auto;margin-top:130px;}
+
+a {color:black;text-decoration:underline;font-weight:bold;}
+
+
+/*	=Table Styles
+	...................................................................... */
+
+table thead th {background-color:#ecf1f0;background:white url(../images/gradients/gradient-table-heading.png) repeat-x scroll 0 0;border:1px solid #DDDDDD;}
+
+table thead th.alexa {width:100px;text-align:center;}
+
+table thead th.yslow {width:100px;text-align:center;}
+
+table thead th.page_speed {width:100px;text-align:center;}
+
+table tbody tr {height:30px;}
+
+table tbody tr.even td {background:#EDF3FE;}
+
+table tbody tr td.url {text-align:left;}
+
+table tbody tr td {text-align:center;}
+
+
+/*	=Top Nav Styles
+	...................................................................... */
+
+.container #top_nav {	background:transparent url(../images/backgrounds/background-nav.png) no-repeat scroll 0 0;height:38px;margin-bottom:30px;}
