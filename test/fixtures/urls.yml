@@ -1,0 +1,29 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: 1
+  url: 
+  last_update: 2010-01-22 16:54:20
+  last_event_update: 2010-01-22 16:54:20
+  w: 1
+  o: 1
+  r: 1
+  ps_w: 1
+  ps_o: 1.5
+  ps_l: 1
+  ps_r: 1
+  ps_t: 1
+
+two:
+  id: 1
+  url: 
+  last_update: 2010-01-22 16:54:20
+  last_event_update: 2010-01-22 16:54:20
+  w: 1
+  o: 1
+  r: 1
+  ps_w: 1
+  ps_o: 1.5
+  ps_l: 1
+  ps_r: 1
+  ps_t: 1

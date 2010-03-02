@@ -1,0 +1,47 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: 1
+  timestamp: 2010-01-22 09:46:02
+  url_id: 1
+  ip: 1
+  user_agent: MyText
+  w: 1
+  o: 1
+  u: MyText
+  r: 1
+  numcomps: 1
+  cdn: 1
+  expires: 1
+  gzip: 1
+  cssattop: 1
+  jsatbottom: 1
+  expression: 1
+  domains: 1
+  obfuscate: 1
+  redirects: 1
+  jstwice: 1
+  etags: 1
+
+two:
+  id: 1
+  timestamp: 2010-01-22 09:46:02
+  url_id: 1
+  ip: 1
+  user_agent: MyText
+  w: 1
+  o: 1
+  u: MyText
+  r: 1
+  numcomps: 1
+  cdn: 1
+  expires: 1
+  gzip: 1
+  cssattop: 1
+  jsatbottom: 1
+  expression: 1
+  domains: 1
+  obfuscate: 1
+  redirects: 1
+  jstwice: 1
+  etags: 1
