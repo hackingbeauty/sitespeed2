@@ -1,11 +1,11 @@
-railsapp/log
-railsapp/log/*.log
-railsapp/db/*sqlite3
+log
+log/*.log
+db/*sqlite3
 .DS_Store
-railsapp/.DS_Store
-railsapp/doc/api
-railsapp/doc/app
-railsapp/db/schema.rb
-railsapp/*.swp
-railsapp/config/database.yml
+.DS_Store
+doc/api
+doc/app
+db/schema.rb
+*.swp
+config/database.yml
 
