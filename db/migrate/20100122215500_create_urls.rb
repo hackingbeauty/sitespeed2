@@ -6,9 +6,9 @@ class CreateUrls < ActiveRecord::Migration
       t.string :country
       t.integer :country_rank
       t.integer :global_rank
-      t.integer :reach_permillion
-      t.integer :page_views_permillion
-      t.integer :page_views_peruser
+      t.integer :country_reach_permillion
+      t.integer :country_page_views_permillion
+      t.integer :country_page_views_peruser
       # t.timestamp :last_update
       # t.timestamp :last_event_update
       # t.integer :w

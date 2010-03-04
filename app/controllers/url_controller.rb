@@ -1,7 +1,7 @@
 class UrlController < ApplicationController
   
   def index
-    @urls = Url.paginate :page => params[:page], :order => 'created_at DESC'
+    @urls = Url.paginate :page => params[:page], :order => 'country_rank ASC'
     
     
     # @alexa_urls = Url.find(:all)

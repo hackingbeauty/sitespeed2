@@ -12,7 +12,7 @@
     - @urls.each do |u|
       %tr{:class=>"#{cycle('odd', 'even')} row"}
         %td
-          rank
+          = u.country_rank
         %td.url      
           = link_to u.url, u
         %td

@@ -73,9 +73,9 @@ ActiveRecord::Schema.define(:version => 20100122215500) do
     t.string   "country"
     t.integer  "country_rank"
     t.integer  "global_rank"
-    t.integer  "reach_permillion"
-    t.integer  "page_views_permillion"
-    t.integer  "page_views_peruser"
+    t.integer  "country_reach_permillion"
+    t.integer  "country_page_views_permillion"
+    t.integer  "country_page_views_peruser"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
