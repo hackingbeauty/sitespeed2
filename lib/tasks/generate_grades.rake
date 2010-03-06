@@ -75,9 +75,54 @@ namespace :grades do
       u.country_page_views_permillion = columns[4]
       u.country_page_views_peruser = columns[5]
       u.save
+      
+      %x[firefox-bin -p YSLOW #{url}]
+      sleep(5)
+      %[killall firefox-bin]
+      
+      
+      
+      
+      
       # @firefox = %x[firefox-bin -p YSLOW #{url}]
-      exec "firefox-bin -p YSLOW #{url}"
-      exec "killall firefox-bin"
+      # exec "firefox-bin -p YSLOW #{url}"
+      # exec "killall firefox-bin"
+      
+      # firefox = IO.popen("firefox-bin -p YSLOW #{url}")
+      # thread = Thread.new(firefox){ while !io.closed? do puts "hi" end}
+      # sleep(10)
+      # firefox.close
+      # Thread.kill(thread)
+      
+      # pid = fork {
+      #   Signal.trap("HUP") { %x[firefox-bin -p YSLOW #{url}]; }
+      #   
+      #        sleep 0.5; exit 2
+      # }
+      
+    # Process.kill("HUP",pid)
+      
+      
+      
+      
+      
+      
+     # %x[firefox-bin -p YSLOW #{url}]
+     
+     # %x[killall firefox-bin]
+     # process = %x[ps -ax | grep firefox-bin]
+     # process_id = process.match(/^[\d]+/)
+     # puts "=================------s-s-s-s-s"
+     # puts process_id
+     # puts "=================------s-s-s-s-s"
+     # sleep(5)
+     # exit(2)
+     # exec "kill #{process_id}"
+     # # %[kill #{process_id}]
+     # puts "pid successfully killed"
+    
+      
+      
       # exec "sleep 30"
       # exec "killall firefox-bin"
       # exec "sleep 10"

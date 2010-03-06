@@ -18,7 +18,10 @@ class BeaconController < ApplicationController
       attrs[k] =v['score']
     }
     
-    u = Url.find_or_create_by_url(CGI::unescape attrs.delete('u'))
+    site_url = CGI::unescape(attrs.delete('u'))
+    site_url_clean = site_url.gsub("http://","")
+
+    u = Url.find_or_create_by_url(site_url_clean)
     attrs[:url_id] = u.id
   
     y = Yslow2.new     
