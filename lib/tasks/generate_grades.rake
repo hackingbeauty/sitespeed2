@@ -1,4 +1,5 @@
-require "hpricot"
+require 'hpricot'
+require 'firewatir'
 
 namespace :grades do
   
@@ -66,8 +67,9 @@ namespace :grades do
     File.open('alexa_top_100.csv','r+').each_line("\n") do |row|
       columns = row.split(",")
       url = columns[0]
-      u = Url.find_or_create_by_url(u)
-      u.url = columns[0]
+      total_url = "http://www.#{url.to_s}"
+      u = Url.find_or_create_by_url(total_url)
+      u.url = total_url
       u.country = "US"
       u.country_rank = columns[1]
       u.global_rank = columns[2]
@@ -76,61 +78,19 @@ namespace :grades do
       u.country_page_views_peruser = columns[5]
       u.save
       
-      %x[firefox-bin -p YSLOW #{url}]
-      sleep(5)
-      %[killall firefox-bin]
+
+      puts "\n url is #{total_url}"
       
       
       
+      puts
       
-      
-      # @firefox = %x[firefox-bin -p YSLOW #{url}]
-      # exec "firefox-bin -p YSLOW #{url}"
-      # exec "killall firefox-bin"
-      
-      # firefox = IO.popen("firefox-bin -p YSLOW #{url}")
-      # thread = Thread.new(firefox){ while !io.closed? do puts "hi" end}
-      # sleep(10)
-      # firefox.close
-      # Thread.kill(thread)
-      
-      # pid = fork {
-      #   Signal.trap("HUP") { %x[firefox-bin -p YSLOW #{url}]; }
-      #   
-      #        sleep 0.5; exit 2
-      # }
-      
-    # Process.kill("HUP",pid)
-      
-      
-      
-      
-      
-      
-     # %x[firefox-bin -p YSLOW #{url}]
-     
-     # %x[killall firefox-bin]
-     # process = %x[ps -ax | grep firefox-bin]
-     # process_id = process.match(/^[\d]+/)
-     # puts "=================------s-s-s-s-s"
-     # puts process_id
-     # puts "=================------s-s-s-s-s"
-     # sleep(5)
-     # exit(2)
-     # exec "kill #{process_id}"
-     # # %[kill #{process_id}]
-     # puts "pid successfully killed"
-    
-      
-      
-      # exec "sleep 30"
-      # exec "killall firefox-bin"
-      # exec "sleep 10"
-      # %x[firefox-bin -p YSLOW #{url}]
-      # %x[sleep 30]
-      # %[killall firefox-bin]
-      # %x[sleep 10]
-      puts url
+      ff1 = FireWatir::Firefox.new(:profile => 'YSLOW')
+      ff1.goto total_url
+      sleep 10
+      ff1.close
+
+
     end
     puts "\nDone"
   end
