@@ -19,9 +19,16 @@ class BeaconController < ApplicationController
     }
     
     site_url = CGI::unescape(attrs.delete('u'))
-    # site_url_clean = site_url.gsub("http://","")
-
-    u = Url.find_or_create_by_url(site_url)
+    site_url_clean1 = site_url.match(/(http|https):\/\/[a-z0-9]*\.[a-z0-9]*\.[a-z]*(\/)/).to_s
+    site_url_clean2 = site_url_clean1.gsub(/(http|https):\/\/[a-z0-9]*\./,"")
+    site_url_lookup = site_url_clean2.gsub("/","")
+    
+    puts "++++++++++++++++++++"
+    puts "site_url_clean: #{site_url_clean1}"
+    puts "site_url_lookup: #{site_url_lookup}"
+    puts "++++++++++++++++++++"
+    
+    u = Url.find_or_create_by_url(site_url_lookup)
     attrs[:url_id] = u.id
   
     y = Yslow2.new     

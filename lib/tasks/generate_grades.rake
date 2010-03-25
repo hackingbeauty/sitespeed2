@@ -62,7 +62,8 @@ namespace :grades do
     File.open('alexa_top_100.csv','r+').each_line("\n") do |row|
       columns = row.split(",")
       url = columns[0]
-      total_url = "http://www.#{url.to_s}/"
+      # total_url = "http://www.#{url.to_s}/"
+      total_url = url.to_s
       u = Url.find_or_create_by_url(total_url)
       u.url = total_url
       u.country = "US"
