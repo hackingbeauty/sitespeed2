@@ -34,10 +34,9 @@ namespace :grades do
               }.to_a.collect{|item| item.first + "=" + CGI::escape(item.last.to_s) }.join("&")     # Put key value pairs into http GET format
            )
     xml = Hpricot.parse(Net::HTTP.get(url))
-    
-    File.open('alexa_top_100.csv', 'w'){ |f|
+ 
+    File.open(RAILS_ROOT + '/tmp/alexa_top_100.csv', 'w'){ |f|
       (xml/'aws:sites'/'aws:site').each do |site|
-        site
         url = (site/'aws:dataurl').inner_html
         country_rank = (site/'aws:country'/'aws:rank').inner_html
         global_rank = (site/'aws:global'/'aws:rank').inner_html
@@ -83,7 +82,7 @@ namespace :grades do
   
   desc "Insert Alexa Grades Into Database"
   task :insert => :environment do
-    File.open('alexa_top_100.csv','r+').each_line("\n") do |row|
+    File.open(RAILS_ROOT + '/tmp/alexa_top_100.csv','r+').each_line("\n") do |row|
       columns = row.split(",")
       url = columns[0]
       # total_url = "http://www.#{url.to_s}/"
