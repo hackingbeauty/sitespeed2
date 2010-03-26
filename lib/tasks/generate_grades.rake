@@ -59,6 +59,30 @@ namespace :grades do
       end
     }# end File.open
     
+    # File.open('alexa_top_100.csv','r+').each_line("\n") do |row|
+    #   columns = row.split(",")
+    #   url = columns[0]
+    #   # total_url = "http://www.#{url.to_s}/"
+    #   total_url = url.to_s
+    #   u = Url.find_or_create_by_url(total_url)
+    #   u.url = total_url
+    #   u.country = "US"
+    #   u.country_rank = columns[1]
+    #   u.global_rank = columns[2]
+    #   u.country_reach_permillion = columns[3]
+    #   u.country_page_views_permillion = columns[4]
+    #   u.country_page_views_peruser = columns[5]
+    #   u.save
+    #   
+    #   puts "\n url is #{total_url}"
+    # end
+    
+    puts "\nDone!"
+  
+  end
+  
+  desc "Insert Alexa Grades Into Database"
+  task :insert => :environment do
     File.open('alexa_top_100.csv','r+').each_line("\n") do |row|
       columns = row.split(",")
       url = columns[0]
@@ -76,7 +100,7 @@ namespace :grades do
       
       puts "\n url is #{total_url}"
     end
-    puts "\nDone!"
+    
   end
   
   desc "Generate Yslow! Grades"
