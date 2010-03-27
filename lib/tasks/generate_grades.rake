@@ -3,6 +3,8 @@ require 'firewatir'
 
 namespace :grades do
   
+  csv_file = RAILS_ROOT + '/tmp/alexa_top_100.csv'
+  
   desc "Generate Yslow! and Page Speed Grades"
   task :generate => [:alexa, :yslow, :pagespeed]
 
@@ -35,7 +37,7 @@ namespace :grades do
            )
     xml = Hpricot.parse(Net::HTTP.get(url))
  
-    File.open(RAILS_ROOT + '/tmp/alexa_top_100.csv', 'w'){ |f|
+    File.open(csv_file, 'w'){ |f|
       (xml/'aws:sites'/'aws:site').each do |site|
         url = (site/'aws:dataurl').inner_html
         country_rank = (site/'aws:country'/'aws:rank').inner_html
@@ -57,32 +59,14 @@ namespace :grades do
             country_pageviews_peruser + "\n"
       end
     }# end File.open
-    
-    # File.open('alexa_top_100.csv','r+').each_line("\n") do |row|
-    #   columns = row.split(",")
-    #   url = columns[0]
-    #   # total_url = "http://www.#{url.to_s}/"
-    #   total_url = url.to_s
-    #   u = Url.find_or_create_by_url(total_url)
-    #   u.url = total_url
-    #   u.country = "US"
-    #   u.country_rank = columns[1]
-    #   u.global_rank = columns[2]
-    #   u.country_reach_permillion = columns[3]
-    #   u.country_page_views_permillion = columns[4]
-    #   u.country_page_views_peruser = columns[5]
-    #   u.save
-    #   
-    #   puts "\n url is #{total_url}"
-    # end
-    
+        
     puts "\nDone!"
   
   end
   
   desc "Insert Alexa Grades Into Database"
   task :insert => :environment do
-    File.open(RAILS_ROOT + '/tmp/alexa_top_100.csv','r+').each_line("\n") do |row|
+    File.open(csv_file,'r+').each_line("\n") do |row|
       columns = row.split(",")
       url = columns[0]
       # total_url = "http://www.#{url.to_s}/"
@@ -102,11 +86,33 @@ namespace :grades do
     
   end
   
+  # To execute rake task and pass arguments type the following => rake grades:yslow[20,100]
   desc "Generate Yslow! Grades"
-  task :yslow => :environment do
-    print "Generating Yslow! Grades for"
-    File.open('alexa_top_100.csv','r+').each_line("\n") do |row|
-      columns = row.split(",")
+  task :yslow, :start_url, :end_url do |t, args|
+    print "Generating Yslow! Grades \n"
+    
+    if :start_url == nil || :end_url == nil
+      return "Please enter a start and end number"
+      Kernet.exit
+    end
+    
+    puts "args are #{args}"
+    
+    url_start = args[:start_url].to_i
+    url_end = args[:end_url].to_i
+    
+    puts "url_start is #{url_start}, url_end is #{url_end}"
+    
+    urls = Array.new
+    
+    File.open(RAILS_ROOT + '/tmp/alexa_top_100.csv','r+').each_line("\n") do |row|
+      urls.push row
+    end
+    
+    puts urls.size
+    
+    url_start.upto(url_end){ |i|
+      columns = urls[i].split(",")
       url = columns[0]
       total_url = "http://www.#{url.to_s}"
             
@@ -116,9 +122,8 @@ namespace :grades do
       ff1.goto total_url
       sleep 10
       ff1.close
-
-
-    end
+    }
+    
     puts "\nDone"
   end
   
