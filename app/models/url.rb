@@ -5,7 +5,7 @@ class Url < ActiveRecord::Base
   
   
   def self.per_page
-    20
+    50
   end
   
 end

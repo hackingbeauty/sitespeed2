@@ -8,6 +8,27 @@
     = stylesheet_link_tag "blueprint/print.css", :media => "print"
   %body
     .container
-      #top_nav
-      = yield
-    = javascript_include_tag "jquery-1.3.2", "application", :cache => true
+      %h1
+        highperformingsites.com
+      #sub_container
+        #top_nav
+        #sub_container_back
+          #left_nav.span-7
+            .module
+              %h2
+                Top 100 Fastest
+              = fastest_sites
+            .module
+              %h2
+                Top 100 Slowest
+              = slowest_sites
+          #main_content.span-16.last
+            .module
+              = yield
+    #footer
+      .container
+        %ul
+          %li
+            %a{:href=>"http://fromthought2web.com", :rel=>"external", :title=>"Copyright: FromThought2Web Network"}
+              From Thought 2 Web Network
+    = javascript_include_tag "jquery-1.4.2", "application", :cache => true

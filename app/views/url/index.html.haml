@@ -1,7 +1,10 @@
-%table
+%h2
+  Alexa Top 100 Sites
+= will_paginate @urls
+%table#top100
   %thead
     %th.alexa
-      Alexa Rank
+      US Rank
     %th
       URL
     %th.yslow
@@ -11,14 +14,14 @@
   %tbody
     - @urls.each do |u|
       %tr{:class=>"#{cycle('odd', 'even')} row"}
-        %td
+        %td.center
           = u.country_rank
         %td.url      
           = link_to u.url, u
-        %td
+        %td.center
           = (u.yslow2s.find(:last) == nil) ? 'N/A' : u.yslow2s.find(:last).o
-        %td
+        %td.center
           = (u.page_speeds.find(:last) == nil) ? 'N/A' : u.page_speeds.find(:last).o
 
-= will_paginate @urls
+
 
