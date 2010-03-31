@@ -14,7 +14,7 @@ ul {list-style-type:none;}
 
 .container {width:995px;margin:0 auto;}
 
-.container #sub_container {background-color:white;-moz-border-radius:10px 10px;float:left;padding:20px;border:1px solid #999999;-moz-border-radius:10px;
+.container #sub_container {background-color:white;-moz-border-radius:10px 10px;float:left;padding:20px;border:1px solid #0071B3;-moz-border-radius:10px;
 -moz-box-shadow:0 0 30px #999999;-webkit-border-radius:10px;-webkit-box-shadow:0 0 30px #999999;}
 
 .container #sub_container #sub_container_back {-moz-border-radius:5px 5px 5px 5px;background:none repeat scroll 0 0 #D4D4D4;float:left;padding:19px;}
