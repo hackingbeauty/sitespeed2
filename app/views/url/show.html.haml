@@ -1,18 +1,20 @@
-%table
+%h2
+  = "Front-End Performance Recordings for <br /> <a href='http://www.#{@url_name}' title='#{@url_name}'>#{@url_name}</a>"
+%table{:summary => "Front End Performance Grade Recordings for #{@url_name}"}
   %thead
     %tr
       %th
-        = @url_name
+        = "Date Recorded"
       %th
-        Weight
+        Page Weight
       %th
         Overall Score
   %tbody
-    - @yslow_scores.each do |y|
+    - @yslow2_scores.each do |y|
       %tr
         %td
-          = y.created_at
+          = link_to Yslow2.readable_time(y.created_at), y
         %td
-          = y.w
+          = "#{y.w} bytes"
         %td
           = y.o

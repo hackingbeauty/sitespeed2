@@ -38,6 +38,7 @@ ActionController::Routing::Routes.draw do |map|
   # Install the default routes as the lowest priority.
   # Note: These default routes make all actions in every controller accessible via GET requests. You should
   # consider removing or commenting them out if you're using named routes and resources.
+  map.resources :yslow2
   map.resources :url
   map.root :controller => "url", :action => "index"
   map.connect 'page_speed', :controller => 'beacon', :action => 'page_speed'
