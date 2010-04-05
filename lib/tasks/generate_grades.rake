@@ -71,8 +71,8 @@ namespace :grades do
       url = columns[0]
       # total_url = "http://www.#{url.to_s}/"
       total_url = url.to_s
-      u = Url.find_or_create_by_url(total_url)
-      u.url = total_url
+      u = Url.find_or_create_by_url_name(total_url)
+      u.url_name = total_url
       u.country = "US"
       u.country_rank = columns[1]
       u.global_rank = columns[2]

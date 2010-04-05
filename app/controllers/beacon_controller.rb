@@ -28,7 +28,7 @@ class BeaconController < ApplicationController
     puts "site_url_lookup: #{site_url_lookup}"
     puts "++++++++++++++++++++"
     
-    u = Url.find_or_create_by_url(site_url_lookup)
+    u = Url.find_or_create_by_url_name(site_url_lookup)
     attrs[:url_id] = u.id
   
     y = Yslow2.new     
@@ -47,7 +47,7 @@ class BeaconController < ApplicationController
     attrs.delete('action')
     attrs.delete('controller')
 
-    u = Url.find_or_create_by_url(CGI::unescape attrs.delete('u'))
+    u = Url.find_or_create_by_url_name(CGI::unescape attrs.delete('u'))
     attrs[:url_id] = u.id
       
     p = PageSpeed.new

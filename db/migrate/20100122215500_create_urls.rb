@@ -2,7 +2,7 @@ class CreateUrls < ActiveRecord::Migration
   def self.up
     create_table :urls, :primary_key => :id do |t|
       t.integer :id
-      t.binary :url
+      t.binary :url_name
       t.string :country
       t.integer :country_rank
       t.integer :global_rank

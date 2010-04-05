@@ -69,7 +69,7 @@ ActiveRecord::Schema.define(:version => 20100122215500) do
   end
 
   create_table "urls", :force => true do |t|
-    t.binary   "url"
+    t.binary   "url_name"
     t.string   "country"
     t.integer  "country_rank"
     t.integer  "global_rank"

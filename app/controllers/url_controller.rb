@@ -24,7 +24,7 @@ class UrlController < ApplicationController
 
   def show
     @the_url = Url.find(params[:id])
-    @url_name = @the_url.url
+    # @url_name = @the_url.url_name
     @yslow2_scores = @the_url.yslow2s.find(:all)
   end
   

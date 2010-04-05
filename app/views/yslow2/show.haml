@@ -1,1 +1,135 @@
-= @yslow2.o
+%h2
+  = "Front-End Performance Grade for <a href='http://www.#{@yslow2.url}' title='#{@yslow2.url}'>#{@yslow2.url.url_name}</a>"
+%ul
+  %li
+    %strong
+      Overall Score:
+    %strong
+      = @yslow2.o
+  %li
+    %strong
+      Total Page Size:
+    %strong
+      = Yslow2.convert_to_kilobytes(@yslow2.w)
+  %li
+    %strong
+      Total Number of Requests:
+    %strong
+      = @yslow2.r
+
+%table{:summary => "Front End Performance Subscores for #{@yslow2.url.url_name}"}
+  %thead
+    %tr
+      %th
+        Performance Rule
+      %th
+        Subscore
+  %tbody
+    %tr
+      %td
+        Make Fewer HTTP Requests rule
+      %td
+        = @yslow2.ynumreq 
+    %tr
+      %td
+        Use a Content Delivery Network(CDN) rule
+      %td
+        = @yslow2.ycdn
+    %tr
+      %td
+        Add Expires Headers rule
+      %td
+        = @yslow2.yexpires
+    %tr
+      %td
+        Compress components with Gzip rule
+      %td
+        = @yslow2.ycompress
+    %tr
+      %td
+        Put CSS at Top rule
+      %td
+        = @yslow2.ycsstop
+    %tr
+      %td
+        Put JavaScript at Bottom rule
+      %td
+        = @yslow2.yjsbottom
+    %tr
+      %td
+        Avoid CSS Expressions rule
+      %td
+        = @yslow2.yexpressions
+    %tr
+      %td
+        Make JavaScript and CSS external
+      %td
+        = @yslow2.yexternal
+    %tr
+      %td
+        Reduce DNS Lookups rule
+      %td
+        = @yslow2.ydns
+    %tr
+      %td
+        Minify JavaScript and CSS
+      %td
+        = @yslow2.yminify
+    %tr
+      %td
+        Avoid URL Redirects rule
+      %td
+        = @yslow2.yredirects
+    %tr
+      %td
+        Remove Duplicate JavaScript and CSS rule
+      %td
+        = @yslow2.ydupes
+    %tr
+      %td
+        Configure Entity Tags (ETags) rule
+      %td
+        = @yslow2.yetags
+    %tr
+      %td
+        Use GET for AJAX requests
+      %td
+        = "#{@yslow2.yxhr}"
+    %tr
+      %td
+        Reduce the Number of DOM Elements rule
+      %td
+        = @yslow2.ymindom
+    %tr
+      %td
+        Avoid HTTP 404 (Not Found) Error rule
+      %td
+        = @yslow2.yno404
+    %tr
+      %td
+        Reduce Cookie Size rule
+      %td
+        = @yslow2.ymincookie
+    %tr
+      %td
+        Use Cookie-Free Domains rule
+      %td
+        = @yslow2.ycookiefree
+    %tr
+      %td
+        Avoid AlphaImageLoader Filter rule
+      %td
+        = @yslow2.ynofilter
+    %tr
+      %td
+        Do Not Scale Images in HTML rule
+      %td
+        = @yslow2.yimgnoscale
+    %tr
+      %td
+        Make Favicon Small and Cacheable
+      %td
+        = @yslow2.yfavicon
+
+= @yslow2.details
+
