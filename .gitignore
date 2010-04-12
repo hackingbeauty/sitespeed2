@@ -1,5 +1,6 @@
 log/*.log 
 log/development.log
+log/test.log
 tmp/* 
 tmp/**/* 
 doc/api 
@@ -8,3 +9,4 @@ db/*.sqlite3
 *.swp 
 *˜ 
 .DS_Store
+tmp/*
