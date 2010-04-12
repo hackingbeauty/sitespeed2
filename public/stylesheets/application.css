@@ -75,7 +75,9 @@ table tbody tr.even td {background:#EDF3FE;}
 
 
 
-/*	=Top 100 Styles
+/*	=Show Page
 	...................................................................... */
+
+#show_page h2 {margin-bottom:40px;}	
 	
-/*table#top100 td {text-align:center;}*/
+div.grades {clear:both;margin-top:50px;}

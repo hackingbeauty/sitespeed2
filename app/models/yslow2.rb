@@ -30,14 +30,5 @@
 
 class Yslow2 < ActiveRecord::Base
   belongs_to :url
-    
-  def self.readable_time(utc)
-    # utc.strftime("%a %b #{utc.day.ordinalize}")
-    utc.to_formatted_s(:long)
-  end
-  
-  def self.convert_to_kilobytes(bytes)
-    "#{(bytes.to_f)/1000} kilobytes"
-  end
-  
+      
 end

@@ -26,6 +26,7 @@ class UrlController < ApplicationController
     @the_url = Url.find(params[:id])
     # @url_name = @the_url.url_name
     @yslow2_scores = @the_url.yslow2s.find(:all)
+    @page_speed_scores = @the_url.page_speeds.find(:all)
   end
   
   
