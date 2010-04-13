@@ -12,5 +12,9 @@ module ApplicationHelper
     top_ten_slowest = yslow_grades.inject("<table><thead><th>Rank</th><th>Url</th><th>Yslow</th></thead>") {|table, td| table + "<tr><td class='center'>#{td.url.country_rank}</td><td>#{td.url.url_name}</td><td class='center'>#{td.url.yslow2s.last.o}</td></tr>"}
     top_ten_slowest << "</table>"   
   end
+  
+  def convert_to_kilobytes(bytes)
+    "#{(bytes.to_f)/1000} kilobytes"
+  end
 
 end
