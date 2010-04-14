@@ -2,7 +2,7 @@
 module ApplicationHelper
 
   def fastest_sites
-    yslow_grades = Yslow2.find(:all, :select => 'DISTINCT url_id', :order => 'o DESC', :limit => 9)
+    yslow_grades = Yslow2.find(:all, :order => 'o DESC', :select => 'DISTINCT url_id',  :limit => 9)
     top_ten_fastest = yslow_grades.inject("<table><thead><th>Rank</th><th>Url</th><th>Yslow</th></thead>") {|table, td| table + "<tr><td class='center'>#{td.url.country_rank}</td><td>#{td.url.url_name}</td><td class='center'>#{link_to td.url.yslow2s.last.o, td.url}</td></tr>"}
     top_ten_fastest << "</table>"   
   end
