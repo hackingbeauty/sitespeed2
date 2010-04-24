@@ -12,7 +12,7 @@ ul {list-style-type:none;}
 
 .center {text-align:center;}
 
-.container {width:995px;margin:0 auto;}
+.container {width:950px;margin:0 auto;}
 
 .container #sub_container {background-color:white;-moz-border-radius:10px 10px;float:left;padding:20px;/*border:1px solid #0071B3*/;-moz-border-radius:10px;
 -moz-box-shadow:0 0 30px #999999;-webkit-border-radius:10px;-webkit-box-shadow:0 0 30px #999999;}
@@ -53,8 +53,8 @@ table tbody tr.even td {background:#EDF3FE;}
 /*	=Top Nav Styles
 	...................................................................... */
 
-.container #top_nav {	background:transparent url(../images/backgrounds/background-nav.png) no-repeat scroll 0 0;height:38px;margin-bottom:30px;}
-
+/*.container #top_nav {	background:transparent url(../images/backgrounds/background-nav.png) no-repeat scroll 0 0;height:38px;margin-bottom:30px;}
+*/
 
 /*	=Left Nav Styles
 	...................................................................... */
@@ -64,6 +64,8 @@ table tbody tr.even td {background:#EDF3FE;}
 
 /*	=Main Content Styles
 	...................................................................... */
+
+.container #main_content {width:540px;margin-left:10px;}
 
 .container #main_content h2 {float:left;}
 	
