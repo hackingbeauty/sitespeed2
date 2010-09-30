@@ -18,5 +18,10 @@ module ApplicationHelper
   def convert_to_kilobytes(bytes)
     "#{(bytes.to_f)/1000} kilobytes"
   end
+  
+  def convert_to_seconds(milliseconds)
+    "#{(milliseconds).to_f/1000}s"
+  end
+
 
 end

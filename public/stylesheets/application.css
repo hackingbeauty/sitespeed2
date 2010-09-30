@@ -2,23 +2,28 @@
 /*	=Main Styles
 	...................................................................... */
 	
-body {font-family:Verdana,Arial,Helvetica,sans-serif;font-size:small;background-color:#0071B3;} /*#1969a9*/
+body {font-family:Verdana,Arial,Helvetica,sans-serif;font-size:100%;background-color:#000099;} /*#1969a9*/
 
-.container {/*background-color:white;*/-moz-border-radius:10px;-webkit-border-radius:5px;padding:20px;margin:0 auto;margin-top:30px;}
+.container {/*background-color:white;*/-moz-border-radius:10px;-webkit-border-radius:5px;padding:20px;}
 
-a {color:black;text-decoration:underline;font-weight:bold;}
+a {text-decoration:underline;font-weight:bold;}
 
 ul {list-style-type:none;}
 
 .center {text-align:center;}
 
-.container {width:950px;margin:0 auto;}
-
 .container #sub_container {background-color:white;-moz-border-radius:10px 10px;float:left;padding:20px;/*border:1px solid #0071B3*/;-moz-border-radius:10px;
--moz-box-shadow:0 0 30px #999999;-webkit-border-radius:10px;-webkit-box-shadow:0 0 30px #999999;}
+-moz-box-shadow:0 0 30px #999999;-webkit-border-radius:10px;-webkit-box-shadow:0 0 30px #999999;width:70%;}
 
-.container #sub_container #sub_container_back {-moz-border-radius:5px 5px 5px 5px;background:none repeat scroll 0 0 #D4D4D4;float:left;padding:19px;}
+.container #sub_container #sub_container_back {-moz-border-radius:5px 5px 5px 5px;background:none repeat scroll 0 0 #D4D4D4;padding:19px;}
 
+h1, h2, h3, h4, h5, h6 {
+  color:white;
+}
+
+a {
+  color:white;
+}
 
 /*	=Table Styles
 	...................................................................... */
@@ -41,7 +46,7 @@ table tbody tr.even td {background:#EDF3FE;}
 /*	=Module
 	...................................................................... */
 
-.container .module {background:white;-moz-border-radius:5px;-webkit-border-radius:5px;padding:10px 20px;margin-bottom:20px;clear:both;}
+.container .module {background:white;-moz-border-radius:5px;-webkit-border-radius:5px;padding:10px 20px;}
 
 .container .module h2 {font-size:1.5em;font-weight:bold;}
 
@@ -65,7 +70,7 @@ table tbody tr.even td {background:#EDF3FE;}
 /*	=Main Content Styles
 	...................................................................... */
 
-.container #main_content {width:540px;margin-left:10px;}
+#main_content {width:100%;}
 
 .container #main_content h2 {float:left;}
 	

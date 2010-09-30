@@ -38,7 +38,6 @@ class BeaconController < ApplicationController
     
   end
   
-  
   def page_speed  
     attrs = params.clone
     

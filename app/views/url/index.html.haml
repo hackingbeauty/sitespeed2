@@ -1,27 +1,39 @@
-%h2
-  Performance Grades for <br /> <a href="http://www.alexa.com" title="Alexa.com - The Web Information Company">Alexa</a> Top 100 Sites
-= will_paginate @urls
-%table#top100
+/ = will_paginate @urls
+%table
   %thead
-    %th.alexa
-      US Rank
     %th
       URL
+    %th
+      Page Load Time
+    %th
+      Page Weight
+    %th
+      CSS Weight
+    %th
+      JS Weight
+    %th
+      Requests
     %th.yslow
       Yslow
-    %th.page_speed
-      Page Speed
   %tbody
     - @urls.each do |u|
       %tr{:class=>"#{cycle('odd', 'even')} row"}
-        %td.center
-          = u.country_rank
         %td.url      
           = u.url_name
+        %td
+          = convert_to_seconds(u.yslow2s.find(:last).lt)
+        %td
+          = number_to_human_size(u.yslow2s.find(:last).w,2)
+        %td
+        %td
+        %td
+          = u.yslow2s.find(:last).r
         %td.center
-          = (u.yslow2s.find(:last) == nil) ? 'N/A' : (link_to grade(u.yslow2s.find(:last).o), u)
-        %td.center
-          = (u.page_speeds.find(:last) == nil) ? 'N/A' : (link_to grade(u.page_speeds.find(:last).o), u)
+          = (u.yslow2s.find(:last) == nil) ? 'N/A' : (grade(u.yslow2s.find(:last).o))
+          
+          
+          
+          
 
 
 

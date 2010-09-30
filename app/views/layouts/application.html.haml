@@ -9,27 +9,15 @@
   %body
     .container
       %h1
-        %a{:href => url_index_path, :title => "highperformingsites.com"}
-          highperformingsites.com
+        %a{:href => url_index_path, :title => "Site Speed Tracker"}
+          Site Speed Tracker
       #sub_container
         #top_nav
         #sub_container_back
-          #left_nav.span-8
-            .module
-              %h2
-                Top 10 Fastest
-              = fastest_sites
-            .module
-              %h2
-                Top 10 Slowest
-              = slowest_sites
-          #main_content.span-15.last
+
+          #main_content
             .module
               = yield
     #footer
       .container
-        %ul
-          %li
-            %a{:href=>"http://fromthought2web.com", :rel=>"external", :title=>"Copyright: FromThought2Web Network"}
-              FromThought2WebNetwork
     = javascript_include_tag "jquery-1.4.2", "application", :cache => true
