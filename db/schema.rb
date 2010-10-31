@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100122215500) do
+ActiveRecord::Schema.define(:version => 20101031005535) do
 
   create_table "events", :force => true do |t|
     t.string   "type"
@@ -23,6 +23,35 @@ ActiveRecord::Schema.define(:version => 20100122215500) do
   end
 
   add_index "events", ["start"], :name => "index_events_on_start", :unique => true
+
+  create_table "grades", :force => true do |t|
+    t.string   "yslow2_id"
+    t.string   "ynumreq"
+    t.string   "ycdn"
+    t.string   "yexpires"
+    t.string   "ycompress"
+    t.string   "ycsstop"
+    t.string   "yjsbottom"
+    t.string   "yexpressions"
+    t.string   "yexternal"
+    t.string   "ydns"
+    t.string   "yminify"
+    t.string   "yredirects"
+    t.string   "ydupes"
+    t.string   "yetags"
+    t.string   "yxhr"
+    t.string   "yxhrmethod"
+    t.string   "ymindom"
+    t.string   "yno404"
+    t.string   "ymincookie"
+    t.string   "ycookiefree"
+    t.string   "ynofilter"
+    t.string   "yimgnoscale"
+    t.string   "yfavicon"
+    t.string   "yemptysrc"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "page_speeds", :force => true do |t|
     t.integer  "ip"
@@ -87,56 +116,14 @@ ActiveRecord::Schema.define(:version => 20100122215500) do
     t.integer  "w"
     t.integer  "o"
     t.integer  "r"
-    t.text     "i"
     t.integer  "s"
+    t.integer  "i"
     t.integer  "lt"
-    t.integer  "ynumreq"
-    t.integer  "ycdn"
-    t.integer  "yexpires"
-    t.integer  "ycompress"
-    t.integer  "ycsstop"
-    t.integer  "yjsbottom"
-    t.integer  "yexpressions"
-    t.integer  "yexternal"
-    t.integer  "ydns"
-    t.integer  "yminify"
-    t.integer  "yredirects"
-    t.integer  "ydupes"
-    t.integer  "yetags"
-    t.integer  "yxhr"
-    t.integer  "yxhrmethod"
-    t.integer  "ymindom"
-    t.integer  "yno404"
-    t.integer  "ymincookie"
-    t.integer  "ycookiefree"
-    t.integer  "ynofilter"
-    t.integer  "yimgnoscale"
-    t.integer  "yfavicon"
-    t.text     "details"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "yslows", :force => true do |t|
-    t.integer  "url_id"
-    t.integer  "ip"
-    t.text     "user_agent"
-    t.integer  "w"
-    t.integer  "o"
-    t.text     "u"
-    t.integer  "r"
-    t.integer  "numcomps"
-    t.integer  "cdn"
-    t.integer  "expires"
-    t.integer  "gzip"
-    t.integer  "cssattop"
-    t.integer  "jsatbottom"
-    t.integer  "expression"
-    t.integer  "domains"
-    t.integer  "obfuscate"
-    t.integer  "redirects"
-    t.integer  "jstwice"
-    t.integer  "etags"
+    t.integer  "w_c"
+    t.integer  "r_c"
+    t.text     "stats"
+    t.text     "stats_c"
+    t.text     "comps"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

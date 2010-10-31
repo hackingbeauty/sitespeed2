@@ -1,0 +1,11 @@
+/ - @scores.each do |s|
+/   = s.g
+%table
+  %thead
+    %th
+      ycdn
+  %tbody
+  - @scores.each do |s|
+    %tr
+      %td
+        = s.grades.find(:last).ycdn

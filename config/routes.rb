@@ -26,7 +26,7 @@ ActionController::Routing::Routes.draw do |map|
 
   # Sample resource route within a namespace:
   #   map.namespace :admin do |admin|
-  #     # Directs /admin/products/* to Admin::ProductsController (app/controllers/admin/products_controller.rb)
+  #     # Directs /admin/products/* to Admin::ProductsController (app/controllers/admin/products2_controller.rb)
   #     admin.resources :products
   #   end
 
@@ -38,6 +38,7 @@ ActionController::Routing::Routes.draw do |map|
   # Install the default routes as the lowest priority.
   # Note: These default routes make all actions in every controller accessible via GET requests. You should
   # consider removing or commenting them out if you're using named routes and resources.
+  map.all_scores '/all_scores/:id', :controller => 'yslow2', :action => 'all_scores'
   map.resources :page_speed
   map.resources :yslow2
   map.resources :url

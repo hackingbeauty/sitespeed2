@@ -8,33 +8,15 @@ class CreateYslow2s < ActiveRecord::Migration
       t.integer :w
       t.integer :o
       t.integer :r
-      t.text :i
       t.integer :s
+      t.integer :i
       t.integer :lt
-      t.integer :ynumreq
-      t.integer :ycdn
-      t.integer :yexpires
-      t.integer :ycompress
-      t.integer :ycsstop
-      t.integer :yjsbottom
-      t.integer :yexpressions
-      t.integer :yexternal
-      t.integer :ydns
-      t.integer :yminify
-      t.integer :yredirects
-      t.integer :ydupes
-      t.integer :yetags
-      t.integer :yxhr
-      t.integer :yxhrmethod
-      t.integer :ymindom
-      t.integer :yno404
-      t.integer :ymincookie
-      t.integer :ycookiefree
-      t.integer :ynofilter
-      t.integer :yimgnoscale
-      t.integer :yfavicon
-      t.text :details
-
+      # t.in :g
+      t.integer :w_c
+      t.integer :r_c
+      t.text :stats
+      t.text :stats_c
+      t.text :comps
       t.timestamps
     end
     #add_index :yslow2s, :url_id, :unique => true
