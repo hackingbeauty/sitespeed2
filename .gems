@@ -1,3 +1,4 @@
+rails --version '=2.3.8'
 firewatir --version '>= 1.6.5'
 will_paginate --version '= 2.2.2'
 haml
