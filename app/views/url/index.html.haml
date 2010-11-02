@@ -6,25 +6,17 @@
     %th
       Total Page Weight
     %th
-      Overall Score
-    %th
-      Requests
-    %th
-      Space Id
+      Overall YSlow Score
     %th
       ID of Ruleset
     %th
       Page Load Time
     %th
-      All Grades
-    %th
       Primed Cache Page Weight
     %th
       Primed Cache Requests
     %th
-      Stats
-    %th
-      Comps
+      Components
   %tbody
     - @urls.each do |u|
       %tr{:class=>"#{cycle('odd', 'even')} row"}
@@ -35,25 +27,15 @@
         %td
           = (u.yslow2s.find(:last) == nil) ? 'N/A' : (grade(u.yslow2s.find(:last).o))
         %td
-          = u.yslow2s.find(:last).r
-        %td
-          = u.yslow2s.find(:last).s
-        %td
           = u.yslow2s.find(:last).i
         %td
           = u.yslow2s.find(:last).lt
         %td
-          = link_to 'All Scores', all_scores_path(u)
-        %td
-          = u.yslow2s.find(:last).w_c
+          = number_to_human_size(u.yslow2s.find(:last).w_c,2)
         %td
           = u.yslow2s.find(:last).r_c
         %td
-          / = u.yslow2s.find(:last).stats
-        %td
-          / = u.yslow2s.find(:last).stats_c
-        %td
-          / = u.yslow2s.find(:last).comps
+          = link_to 'Show', all_components_path(u)
           
           
           

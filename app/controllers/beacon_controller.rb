@@ -5,8 +5,19 @@ class BeaconController < ApplicationController
     yslow2_attrs = {}
     grades = {}
     
+    # =  Crack::JSON.parse(@stats)
+    puts "============="
+    puts "raw_data is is #{request.env['RAW_POST_DATA']}"
+    puts "============="
+    
+    
     raw_data = JSON.parse request.env['RAW_POST_DATA']
+        
     grade_data = raw_data.delete('g') # all grades 
+    
+    puts "============="
+    puts "raw_data.to_json is #{raw_data.to_json}"
+    puts "============="
      
     site_url = CGI::unescape(raw_data.delete('u'))
     u = Url.find_or_create_by_url_name(site_url)
@@ -16,18 +27,22 @@ class BeaconController < ApplicationController
     }
     
     raw_data.each { |k,v| # iterate over top level JSON keys and populate attrs hash
-      yslow2_attrs[k] = v
+      puts "k is #{k}"
+      yslow2_attrs[k] = v.to_json
+      # if k == "stats"
+      #   puts "stats value v is #{v.to_json}"
+      # end
     }
     
     yslow2_attrs[:url_id] = u.id
-    
+        
     grade_data.each { |k,v| # iterate over grades
       grades[k] = v
-      puts "------grades[k]"
-      puts "#{grades[k]}"
+      # puts "------grades[k]"
+      # puts "#{grades[k]}"
     }
             
-    y = Yslow2.new     
+    y = Yslow2.new
     y.update_attributes(yslow2_attrs)
     y.save
     

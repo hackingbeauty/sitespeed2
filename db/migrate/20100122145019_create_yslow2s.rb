@@ -11,7 +11,7 @@ class CreateYslow2s < ActiveRecord::Migration
       t.integer :s
       t.integer :i
       t.integer :lt
-      # t.in :g
+      t.integer :g
       t.integer :w_c
       t.integer :r_c
       t.text :stats

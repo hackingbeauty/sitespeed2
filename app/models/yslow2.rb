@@ -3,3 +3,7 @@ class Yslow2 < ActiveRecord::Base
   has_many :grades
       
 end
+
+
+
+

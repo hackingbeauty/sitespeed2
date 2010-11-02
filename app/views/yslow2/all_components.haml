@@ -1,0 +1,24 @@
+/ = JSON.decode(@stats)
+%h2
+  = @domain
+%table
+  %thead
+    %th
+      File Type
+    %th
+      Weight
+    %th
+      Requests
+
+  %tbody
+  - @stats.each do |k,v|
+    %tr
+      %td
+        = k
+      %td
+        = json_to_hash(v,"w")
+      %td
+        = json_to_hash(v,"r")
+        
+
+          

@@ -119,6 +119,7 @@ ActiveRecord::Schema.define(:version => 20101031005535) do
     t.integer  "s"
     t.integer  "i"
     t.integer  "lt"
+    t.integer  "g"
     t.integer  "w_c"
     t.integer  "r_c"
     t.text     "stats"
