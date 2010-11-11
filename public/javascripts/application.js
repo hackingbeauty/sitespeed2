@@ -1,11 +1,9 @@
 (function(){
 
-	//Create Namespace
-	if(!window.HPS) {window.HPS = {}}	
-
+	if(!window.HPS) {window.HPS = {}} //Create Namespace
 
 	//Opens all hrefs with rel="external" attribute in separate window - target=_blank doesn't validate
-	var externalLinks = function(){		
+	window.HPS.externalLinks = function(){		
 		if (!document.getElementsByTagName) { 
 			return; 
 		}
@@ -17,12 +15,15 @@
 			}
 		} 
 	}
-	window.HPS.externalLinks = externalLinks;
+	
+	window.HPS.showComponentsModal = function(){
+		//$('#dialog').jqm({modal: true, trigger: 'a.showDialog'});
+		$('#dialog').jqm({ajax:'@href', modal:true, trigger: 'a.showDialog'});
 
+	}
 })();
 		
 $(document).ready (function() {
-
-	HPS.externalLinks();
-	
+	window.HPS.externalLinks();
+	window.HPS.showComponentsModal();
 });
