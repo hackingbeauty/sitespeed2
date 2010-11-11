@@ -18,8 +18,8 @@
 	
 	window.HPS.showComponentsModal = function(){
 		//$('#dialog').jqm({modal: true, trigger: 'a.showDialog'});
-		$('#dialog').jqm({ajax:'@href', modal:true, trigger: 'a.showDialog'});
-
+		$('#dialog').jqm({ajax:'@href',  trigger: 'a.showDialog'});
+		$('#dialog').jqm();
 	}
 })();
 		

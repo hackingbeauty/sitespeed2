@@ -90,10 +90,17 @@ table tbody tr.even td {background:#EDF3FE;}
 #footer {clear:both;}
 
 
-
 /*	=Show Page
 	...................................................................... */
 
 #show_page h2 {margin-bottom:40px;}	
 	
 div.grades {clear:both;margin-top:50px;}
+
+
+/*	=Link Styles
+	...................................................................... */
+
+.jqmWindow {position: relative;}
+
+.jqmWindow a.jqmClose {position:absolute; right: 10px;}

@@ -44,34 +44,10 @@
           = (u.yslow2s.find(:last) == nil) ? 'N/A' : (grade(u.yslow2s.find(:last).o))
         %td.date
           = u.yslow2s.find(:last).created_at.to_s(:short)
-
 #dialog.jqmWindow
-  %a.jqmClose{:href => "#"} Close
-  %hr/
-  %em READ ME
-  \-->
-  This is a "vanilla plain" jqModal window. Behavior and appeareance extend far beyond this.
-  The demonstrations on this page will show off a few possibilites. I recommend walking
-  through each one to get an understanding of jqModal
-  %em before
-  using it.
-  %br/
-  %br/
-  You can view the sourcecode of examples by clicking the Javascript, CSS, and HTML tabs.
-  Be sure to checkout the
-  %a{:href => "README"} documentation
-  too!
-  %br/
-  %br/
-  = succeed ";" do
-    %em NOTE
-  You can close windows by clicking the tinted background known as the "overlay".
-  Clicking the overlay will have no effect if the "modal" parameter is passed, or if the
-  overlay is disabled.
           
           
-          
-          
+
           
 
 
