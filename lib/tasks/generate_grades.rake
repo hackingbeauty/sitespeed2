@@ -1,5 +1,4 @@
 require 'hpricot'
-require 'firewatir'
 
 namespace :grades do
   
