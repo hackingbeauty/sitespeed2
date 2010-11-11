@@ -33,7 +33,7 @@ h1 a {text-decoration:none;}
 /*	=Table Styles
 	...................................................................... */
 
-table {background-color:white;clear:both;}
+table {background-color:white;clear:both;font-size:95%;}
 
 table thead th {background-color:#ecf1f0;background:white url(../images/gradients/gradient-table-heading.png) repeat-x scroll 0 0;border:1px solid #DDDDDD;}
 

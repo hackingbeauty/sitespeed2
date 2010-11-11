@@ -42,6 +42,8 @@
           = link_to 'Components', all_components_path(u)
         %td.score
           = (u.yslow2s.find(:last) == nil) ? 'N/A' : (grade(u.yslow2s.find(:last).o))
+        %td.date
+          = u.yslow2s.find(:last).created_at.to_s(:short)
           
           
           
