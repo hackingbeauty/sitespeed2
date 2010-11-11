@@ -2,11 +2,10 @@
 /*	=Main Styles
 	...................................................................... */
 	
-body {font-family:Verdana,Arial,Helvetica,sans-serif;font-size:100%;background-color:#000099;} /*#1969a9*/
+body {background-color:#000099;} /*#1969a9*/
 
 .container {/*background-color:white;*/-moz-border-radius:10px;-webkit-border-radius:5px;padding:20px;}
 
-a {text-decoration:underline;font-weight:bold;}
 
 ul {list-style-type:none;}
 
@@ -18,8 +17,18 @@ ul {list-style-type:none;}
 .container #sub_container #sub_container_back {-moz-border-radius:5px 5px 5px 5px;background:none repeat scroll 0 0 #D4D4D4;padding:19px;}
 
 h1, h2, h3, h4, h5, h6 {
-/*  color:white;*/
+	color:white;
 }
+
+/*	=Link Styles
+	...................................................................... */
+
+a {text-decoration:underline;font-weight:bold;color:white !important;}
+
+#sub_container a {color:#009 !important;}
+
+h1 a {text-decoration:none;}
+
 
 /*	=Table Styles
 	...................................................................... */
