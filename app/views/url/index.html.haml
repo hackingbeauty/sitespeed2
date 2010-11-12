@@ -27,7 +27,7 @@
         %td.url      
           = link_to u.url_name, u
         %td.load_time
-          = u.yslow2s.find(:last).lt
+          = (u.yslow2s.find(:last) == nil) ? 'N/A' : (grade(u.yslow2s.find(:last).lt))
         %td.ec_pw
           = number_to_human_size(u.yslow2s.find(:last).w,2)
         %td.pc_pw
